@@ -3,7 +3,7 @@ title: "ลูกหมูสามตัว"
 category: "แฟนตาซี"
 source: "นิทานพื้นบ้านยุโรป (เรียบเรียงใหม่)"
 author: "นิรนาม (พื้นบ้านยุโรป)"
-adapter: "Nithan."
+adapter: "Nithaan."
 ageRange: "4-10 ปี"
 readingTime: 6
 cover: "/images/three-pigs.svg"

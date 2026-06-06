@@ -3,7 +3,7 @@ title: "The Three Little Pigs"
 category: "Fantasy"
 source: "European Folktale (Retold)"
 author: "Anonymous (European Folklore)"
-adapter: "Nithan."
+adapter: "Nithaan."
 ageRange: "4-10 years"
 readingTime: 6
 cover: "/images/three-pigs.svg"

@@ -3,7 +3,7 @@ title: "สิงโตกับหนู"
 category: "สอนใจ"
 source: "อีสป (เรียบเรียงใหม่)"
 author: "อีสป"
-adapter: "Nithan."
+adapter: "Nithaan."
 ageRange: "3-8 ปี"
 readingTime: 3
 cover: "/images/lion-mouse.svg"

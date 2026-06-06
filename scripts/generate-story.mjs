@@ -114,7 +114,7 @@ title: "${escapeYaml(data.title)}"
 category: "${category}"
 source: "Nithan Original"
 author: "${escapeYaml(data.author)}"
-adapter: "Nithan."
+adapter: "Nithaan."
 ageRange: "${escapeYaml(data.ageRange)}"
 readingTime: ${data.readingTime}
 cover: "/images/${imageName}"

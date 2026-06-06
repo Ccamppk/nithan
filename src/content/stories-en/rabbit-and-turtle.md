@@ -3,7 +3,7 @@ title: "The Tortoise and the Hare"
 category: "Moral"
 source: "Aesop (Retold)"
 author: "Aesop"
-adapter: "Nithan."
+adapter: "Nithaan."
 ageRange: "3-8 years"
 readingTime: 4
 cover: "/images/rabbit-turtle.svg"

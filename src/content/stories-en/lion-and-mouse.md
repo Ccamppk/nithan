@@ -3,7 +3,7 @@ title: "The Lion and the Mouse"
 category: "Moral"
 source: "Aesop (Retold)"
 author: "Aesop"
-adapter: "Nithan."
+adapter: "Nithaan."
 ageRange: "3-8 years"
 readingTime: 3
 cover: "/images/lion-mouse.svg"

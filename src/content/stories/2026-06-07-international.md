@@ -3,7 +3,7 @@ title: "เทศกาลโคมไฟของเซี่ยวหลาน
 category: "นานาชาติ"
 source: "Nithan Original"
 author: "Nithaan."
-adapter: "Nithan."
+adapter: "Nithaan."
 ageRange: "4-10 ปี"
 readingTime: 8
 publishedAt: 2026-06-07

@@ -3,7 +3,7 @@ title: "กระต่ายกับเต่า"
 category: "สอนใจ"
 source: "อีสป (เรียบเรียงใหม่)"
 author: "อีสป"
-adapter: "Nithan."
+adapter: "Nithaan."
 ageRange: "3-8 ปี"
 readingTime: 4
 cover: "/images/rabbit-turtle.svg"
