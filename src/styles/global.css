@@ -347,6 +347,24 @@ body.day-mode .story-card {
   opacity: 1;
 }
 
+.new-badge {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  background: var(--text);
+  color: var(--bg);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+  border-radius: 20px;
+  letter-spacing: 0.03em;
+  pointer-events: none;
+}
+body.day-mode .new-badge {
+  background: var(--day-text);
+  color: var(--day-bg);
+}
+
 .story-cover {
   width: 100%;
   aspect-ratio: 16/9;
@@ -356,6 +374,7 @@ body.day-mode .story-card {
   align-items: center;
   justify-content: center;
   font-size: 4rem;
+  position: relative;
 }
 body.day-mode .story-cover { background: #EDE8DF; }
 

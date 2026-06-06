@@ -9,6 +9,7 @@ interface Props {
   readingTime: number;
   excerpt: string;
   ageRange: string;
+  publishedAt: Date;
   readingTimeLabel?: string;
 }
 
@@ -20,8 +21,11 @@ const {
   readingTime,
   excerpt,
   ageRange,
+  publishedAt,
   readingTimeLabel = 'นาที',
 } = Astro.props;
+
+const isNew = (Date.now() - new Date(publishedAt).getTime()) < 7 * 24 * 60 * 60 * 1000;
 ---
 <a href={href} class="story-card">
   <div class="story-cover">
@@ -29,6 +33,7 @@ const {
       ? <img src={cover} alt={title} class="story-cover-img" />
       : <span class="material-symbols-outlined">{iconMap[category] ?? 'auto_stories'}</span>
     }
+    {isNew && <span class="new-badge">ใหม่</span>}
   </div>
   <div class="story-body">
     <div class="story-meta">
