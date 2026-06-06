@@ -10,6 +10,7 @@ interface Props {
   excerpt: string;
   ageRange: string;
   publishedAt: Date;
+  isNew?: boolean;
   readingTimeLabel?: string;
 }
 
@@ -21,12 +22,9 @@ const {
   readingTime,
   excerpt,
   ageRange,
-  publishedAt,
+  isNew = false,
   readingTimeLabel = 'นาที',
 } = Astro.props;
-
-const today = new Date().toISOString().split('T')[0];
-const isNew = new Date(publishedAt).toISOString().split('T')[0] === today;
 ---
 <a href={href} class="story-card">
   <div class="story-cover">

@@ -7,6 +7,7 @@ const stories = await getCollection('stories');
 const sorted = stories.sort(
   (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
 );
+const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
 ---
 <Base title="นิทานทั้งหมด" description="รวมนิทานทุกเรื่องจาก Nithan">
   <main class="container" style="padding-top:2rem; padding-bottom:3rem;">
@@ -22,6 +23,7 @@ const sorted = stories.sort(
           excerpt={story.data.excerpt}
           ageRange={story.data.ageRange}
           publishedAt={story.data.publishedAt}
+          isNew={story.data.publishedAt.valueOf() === maxDate}
         />
       ))}
     </div>

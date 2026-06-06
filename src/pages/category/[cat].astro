@@ -14,6 +14,7 @@ export async function getStaticPaths() {
 
 const { cat } = Astro.params;
 const { stories } = Astro.props;
+const maxDate = stories.length ? Math.max(...stories.map((s: any) => s.data.publishedAt.valueOf())) : 0;
 
 const iconMap: Record<string, string> = {
   'สอนใจ':    'lightbulb',
@@ -62,6 +63,7 @@ const iconMap: Record<string, string> = {
             excerpt={story.data.excerpt}
             ageRange={story.data.ageRange}
           publishedAt={story.data.publishedAt}
+          isNew={story.data.publishedAt.valueOf() === maxDate}
           />
         ))}
       </div>

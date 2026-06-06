@@ -10,6 +10,8 @@ const sorted = stories.sort(
 const LIMIT = 6;
 const preview = sorted.slice(0, LIMIT);
 const hasMore = sorted.length > LIMIT;
+
+const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
 ---
 <Base title="หน้าหลัก" description="บ้านนิทานของทุกคน — อ่านนิทานก่อนนอน นิทานสอนใจ และนิทานแฟนตาซี">
   <section class="hero">
@@ -32,6 +34,7 @@ const hasMore = sorted.length > LIMIT;
           excerpt={story.data.excerpt}
           ageRange={story.data.ageRange}
           publishedAt={story.data.publishedAt}
+          isNew={story.data.publishedAt.valueOf() === maxDate}
         />
       ))}
     </div>

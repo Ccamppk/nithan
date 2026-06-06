@@ -12,6 +12,7 @@ const sorted = stories.sort(
 const LIMIT = 6;
 const preview = sorted.slice(0, LIMIT);
 const hasMore = sorted.length > LIMIT;
+const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
 ---
 <Base title="Home" description={t.siteTagline} lang="en">
   <section class="hero">
@@ -34,6 +35,7 @@ const hasMore = sorted.length > LIMIT;
           excerpt={story.data.excerpt}
           ageRange={story.data.ageRange}
           publishedAt={story.data.publishedAt}
+          isNew={story.data.publishedAt.valueOf() === maxDate}
           readingTimeLabel={t.readingTime}
         />
       ))}
