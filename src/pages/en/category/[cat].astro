@@ -1,0 +1,60 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { ui, iconMap, ALL_CATEGORIES_EN } from '../../../i18n';
+
+const t = ui.en;
+
+export async function getStaticPaths() {
+  const stories = await getCollection('storiesEn');
+  return ALL_CATEGORIES_EN.map(cat => ({
+    params: { cat },
+    props: { stories: stories.filter(s => s.data.category === cat) },
+  }));
+}
+
+const { cat } = Astro.params;
+const { stories } = Astro.props;
+---
+<Base title={`${cat} Stories`} description={`${cat} stories from Nithan`} lang="en" activeCat={cat}>
+  <section class="hero" style="padding-bottom:2rem;">
+    <h1 style="font-size:2.2rem; display:flex; align-items:center; justify-content:center; gap:0.5rem;">
+      <span class="material-symbols-outlined" style="font-size:2rem;">{iconMap[cat] ?? 'auto_stories'}</span>
+      {cat}
+    </h1>
+    <p>{stories.length > 0 ? `${stories.length} ${t.stories} in this category` : 'Coming soon...'}</p>
+  </section>
+
+  <main class="container">
+    {stories.length === 0 ? (
+      <div style="text-align:center; padding:4rem 1rem;">
+        <span class="material-symbols-outlined" style="font-size:4rem; color:var(--purple); display:block; margin-bottom:1rem;">bedtime</span>
+        <h2 style="font-family:'Mali',cursive; color:var(--gold); margin-bottom:0.8rem;">{t.noStories}</h2>
+        <p style="color:var(--text-muted); margin-bottom:2rem;">{t.noStoriesDesc}</p>
+      </div>
+    ) : (
+      <div class="stories-grid">
+        {stories.map(story => (
+          <a href={`/en/stories/${story.id}`} class="story-card">
+            <div class="story-cover">
+              <span class="material-symbols-outlined">{iconMap[story.data.category] ?? 'auto_stories'}</span>
+            </div>
+            <div class="story-body">
+              <div class="story-meta">
+                <span class="cat-badge">{story.data.category}</span>
+                <span class="read-time">
+                  <span class="material-symbols-outlined">schedule</span> {story.data.readingTime} {t.readingTime}
+                </span>
+              </div>
+              <h3 class="story-title">{story.data.title}</h3>
+              <p class="story-excerpt">{story.data.excerpt}</p>
+              <p class="story-age">
+                <span class="material-symbols-outlined">child_care</span> {story.data.ageRange}
+              </p>
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+  </main>
+</Base>

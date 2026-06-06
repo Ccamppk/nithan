@@ -1,0 +1,97 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const stories = await getCollection('stories');
+  return stories.map(story => ({
+    params: { id: story.id },
+    props: { story },
+  }));
+}
+
+const { story } = Astro.props;
+const { Content } = await render(story);
+
+const iconMap: Record<string, string> = {
+  'สอนใจ':    'lightbulb',
+  'แฟนตาซี':  'auto_fix_high',
+  'ผจญภัย':   'travel_explore',
+  'นานาชาติ': 'public',
+  'ก่อนนอน':  'bedtime',
+};
+---
+<Base title={story.data.title} description={story.data.excerpt}>
+  <main class="reader-wrap">
+
+    <header class="reader-header">
+      <div class="story-meta" style="margin-bottom:0.8rem;">
+        <span class="cat-badge">
+          <span class="material-symbols-outlined">{iconMap[story.data.category] ?? 'auto_stories'}</span>
+          {story.data.category}
+        </span>
+      </div>
+      <h1 class="reader-title">{story.data.title}</h1>
+      <div class="reader-meta">
+        <span class="reader-meta-item">
+          <span class="material-symbols-outlined">schedule</span> อ่านประมาณ {story.data.readingTime} นาที
+        </span>
+        <span class="reader-meta-item">
+          <span class="material-symbols-outlined">child_care</span> {story.data.ageRange}
+        </span>
+        <span class="reader-meta-item">
+          <span class="material-symbols-outlined">menu_book</span> {story.data.source}
+        </span>
+      </div>
+    </header>
+
+    <div class="reader-controls">
+      <span class="controls-label">ขนาดตัวอักษร:</span>
+      <button class="font-btn" id="fontSmall">ก</button>
+      <button class="font-btn" id="fontMedium" style="font-size:1.1rem;">ก</button>
+      <button class="font-btn" id="fontLarge" style="font-size:1.3rem;">ก</button>
+    </div>
+
+    <article class="story-content" id="storyContent">
+      <Content />
+    </article>
+
+    {(story.data.author || story.data.adapter) && (
+      <div class="story-credits">
+        {story.data.author && (
+          <div class="credit-item">
+            <span class="material-symbols-outlined">history_edu</span>
+            <span><strong>ผู้แต่ง</strong> {story.data.author}</span>
+          </div>
+        )}
+        {story.data.adapter && (
+          <div class="credit-item">
+            <span class="material-symbols-outlined">edit_note</span>
+            <span><strong>เรียบเรียง</strong> {story.data.adapter}</span>
+          </div>
+        )}
+      </div>
+    )}
+  </main>
+
+  <script>
+    const content = document.getElementById('storyContent') as HTMLElement;
+    const sizes: Record<string, string> = {
+      fontSmall: '1rem',
+      fontMedium: '1.15rem',
+      fontLarge: '1.35rem',
+    };
+
+    const saved = localStorage.getItem('nithan-font-size');
+    if (saved && content) content.style.fontSize = saved;
+
+    ['fontSmall', 'fontMedium', 'fontLarge'].forEach(id => {
+      document.getElementById(id)?.addEventListener('click', () => {
+        if (content) {
+          content.style.fontSize = sizes[id];
+          localStorage.setItem('nithan-font-size', sizes[id]);
+        }
+      });
+    });
+  </script>
+</Base>

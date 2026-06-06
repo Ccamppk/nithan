@@ -1,0 +1,46 @@
+---
+import { iconMap } from '../i18n';
+
+interface Props {
+  href: string;
+  title: string;
+  category: string;
+  cover?: string;
+  readingTime: number;
+  excerpt: string;
+  ageRange: string;
+  readingTimeLabel?: string;
+}
+
+const {
+  href,
+  title,
+  category,
+  cover,
+  readingTime,
+  excerpt,
+  ageRange,
+  readingTimeLabel = 'นาที',
+} = Astro.props;
+---
+<a href={href} class="story-card">
+  <div class="story-cover">
+    {cover
+      ? <img src={cover} alt={title} class="story-cover-img" />
+      : <span class="material-symbols-outlined">{iconMap[category] ?? 'auto_stories'}</span>
+    }
+  </div>
+  <div class="story-body">
+    <div class="story-meta">
+      <span class="cat-badge">{category}</span>
+      <span class="read-time">
+        <span class="material-symbols-outlined">schedule</span> {readingTime} {readingTimeLabel}
+      </span>
+    </div>
+    <h3 class="story-title">{title}</h3>
+    <p class="story-excerpt">{excerpt}</p>
+    <p class="story-age">
+      <span class="material-symbols-outlined">child_care</span> {ageRange}
+    </p>
+  </div>
+</a>

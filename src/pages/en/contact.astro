@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Contact Us" description="Contact Nithan" lang="en">
+  <main class="container" style="max-width:760px; padding-top:3rem; padding-bottom:5rem;">
+    <h1 style="font-family:'Mali',cursive; color:var(--gold); margin-bottom:0.5rem;">Contact Us</h1>
+    <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:2.5rem;">We'd love to hear from you.</p>
+
+    <div class="contact-card" style="max-width:400px; padding:2rem 2rem;">
+      <span class="material-symbols-outlined" style="font-size:2.5rem;">mail</span>
+      <h2 style="font-size:1.2rem; margin-top:0.5rem;">Email</h2>
+      <p style="margin:0.6rem 0 1rem;">For general inquiries, feedback, story submissions, or reporting any issues.</p>
+      <a href="mailto:hello@nithan.co" style="font-size:1rem; font-weight:500;">hello@nithan.co</a>
+    </div>
+
+    <div class="contact-note" style="margin-top:3rem;">
+      <span class="material-symbols-outlined">info</span>
+      <p>We try to reply to every email within 2–3 business days. Thank you for reaching out!</p>
+    </div>
+  </main>
+</Base>
+<style>
+  .contact-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .contact-card .material-symbols-outlined { color: var(--gold); font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 48; }
+  .contact-card h2 { font-family: 'Mali', cursive; color: var(--text); }
+  .contact-card p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.7; }
+  .contact-card a { color: var(--gold); }
+  .contact-note {
+    display: flex; align-items: center; gap: 0.6rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 1rem 1.2rem;
+    font-size: 0.88rem; color: var(--text-muted);
+  }
+  .contact-note .material-symbols-outlined { font-size: 1.1rem; flex-shrink: 0; }
+</style>

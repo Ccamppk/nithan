@@ -1,0 +1,94 @@
+---
+import '../styles/global.css';
+import { ui, type Lang, ALL_CATEGORIES_EN } from '../i18n';
+
+interface Props {
+  title: string;
+  description?: string;
+  activeCat?: string;
+  lang?: Lang;
+}
+const { title, description, activeCat, lang = 'th' } = Astro.props;
+const t = ui[lang];
+const isEn = lang === 'en';
+
+const ALL_CATEGORIES_TH = ['สอนใจ', 'แฟนตาซี', 'ผจญภัย', 'นานาชาติ', 'ก่อนนอน'];
+const cats = isEn ? ALL_CATEGORIES_EN : ALL_CATEGORIES_TH;
+const catBase = isEn ? '/en/category/' : '/category/';
+const homeUrl = isEn ? '/en/' : '/';
+const langSwitchUrl = isEn ? Astro.url.pathname.replace(/^\/en/, '') || '/' : '/en' + Astro.url.pathname;
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description ?? t.siteTagline} />
+    <title>{title} — Nithan</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container navbar-inner">
+        <a href={homeUrl} class="logo">
+          <img src="/logo-white.png" alt="Nithan" class="logo-img logo-img--white" />
+          <img src="/logo-dark.png" alt="Nithan" class="logo-img logo-img--dark" />
+        </a>
+        <ul class="nav-links">
+          {cats.map(cat => (
+            <li><a href={`${catBase}${cat}`} class={activeCat === cat ? 'nav-active' : ''}>{cat}</a></li>
+          ))}
+        </ul>
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <a href={langSwitchUrl} class="lang-btn" aria-label="Switch language">
+            {isEn ? 'ไทย' : 'EN'}
+          </a>
+          <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+            <span class="material-symbols-outlined">dark_mode</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <slot />
+
+    <footer class="footer">
+      <div class="container">
+        <p style="display:flex; align-items:center; justify-content:center; gap:0.8rem; margin:0; padding:0; line-height:1;">
+          <img src="/logo-white.png" alt="Nithan" class="logo-img logo-img--white" style="height:5rem;" />
+          <img src="/logo-dark.png" alt="Nithan" class="logo-img logo-img--dark" style="height:5rem;" />
+        </p>
+        <div class="footer-links">
+          <a href={isEn ? '/en/privacy' : '/privacy'}>{t.privacy}</a>
+          <span>·</span>
+          <a href={isEn ? '/en/terms' : '/terms'}>{t.terms}</a>
+          <span>·</span>
+          <a href={isEn ? '/en/contact' : '/contact'}>{t.contact}</a>
+        </div>
+        <p class="footer-copy">{t.copyright}</p>
+      </div>
+    </footer>
+
+    <script>
+      const btn = document.getElementById('themeToggle');
+      const body = document.body;
+
+      const saved = localStorage.getItem('nithan-theme');
+      if (saved === 'night') {
+        body.classList.add('day-mode');
+        if (btn) btn.innerHTML = '<span class="material-symbols-outlined">light_mode</span>';
+      }
+
+      btn?.addEventListener('click', () => {
+        const isNight = body.classList.toggle('day-mode');
+        btn.innerHTML = isNight
+          ? '<span class="material-symbols-outlined">light_mode</span>'
+          : '<span class="material-symbols-outlined">dark_mode</span>';
+        localStorage.setItem('nithan-theme', isNight ? 'night' : 'day');
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import StoryCard from '../components/StoryCard.astro';
+import { getCollection } from 'astro:content';
+
+const stories = await getCollection('stories');
+const sorted = stories.sort(
+  (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
+);
+const LIMIT = 6;
+const preview = sorted.slice(0, LIMIT);
+const hasMore = sorted.length > LIMIT;
+---
+<Base title="หน้าหลัก" description="บ้านนิทานของทุกคน — อ่านนิทานก่อนนอน นิทานสอนใจ และนิทานแฟนตาซี">
+  <section class="hero">
+    <h1>
+      <img src="/logo-white.png" alt="Nithan" class="hero-logo logo-img--white" />
+      <img src="/logo-dark.png" alt="Nithan" class="hero-logo logo-img--dark" />
+    </h1>
+  </section>
+
+  <main class="container">
+    <h2 class="section-title">นิทานทั้งหมด</h2>
+    <div class="stories-grid">
+      {preview.map(story => (
+        <StoryCard
+          href={`/stories/${story.id}`}
+          title={story.data.title}
+          category={story.data.category}
+          cover={story.data.cover}
+          readingTime={story.data.readingTime}
+          excerpt={story.data.excerpt}
+          ageRange={story.data.ageRange}
+        />
+      ))}
+    </div>
+    {hasMore && (
+      <div class="more-btn-wrap">
+        <a href="/all-stories" class="more-btn">
+          <span class="material-symbols-outlined">expand_more</span>
+          ดูนิทานทั้งหมด ({sorted.length} เรื่อง)
+        </a>
+      </div>
+    )}
+  </main>
+</Base>
