@@ -47,7 +47,7 @@ async function generateThaiStory(categoryTh) {
   "excerpt": "เนื้อย่อ 1-2 ประโยคชวนอ่าน ไม่มีเครื่องหมาย quote",
   "ageRange": "เช่น 4-10 ปี",
   "readingTime": 8,
-  "author": "ชื่อผู้แต่ง หรือ นิรนาม",
+  "author": "Nithaan.",
   "imagePrompt": "DALL-E prompt in English: colorful children's book illustration, [describe key scene with characters], soft watercolor style, warm colors, no text",
   "content": "เนื้อเรื่องฉบับเต็ม ใส่ **คติสอนใจ:** ตอนท้าย"
 }`,

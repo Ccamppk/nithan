@@ -2,7 +2,7 @@
 title: "The Secret Map of the Sleeping Island"
 category: "Adventure"
 source: "Nithan Original"
-author: "Anonymous"
+author: "Nithaan."
 adapter: "Nithan."
 ageRange: "4-10 years"
 readingTime: 9

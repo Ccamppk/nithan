@@ -2,7 +2,7 @@
 title: "Xiaolan's Lantern Festival"
 category: "International"
 source: "Nithan Original"
-author: "Anonymous"
+author: "Nithaan."
 adapter: "Nithan."
 ageRange: "4-10 years"
 readingTime: 8
