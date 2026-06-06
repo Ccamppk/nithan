@@ -6,7 +6,6 @@ author: "Aesop"
 adapter: "Nithaan."
 ageRange: "3-8 years"
 readingTime: 3
-cover: "/images/lion-mouse.svg"
 publishedAt: 2026-06-02
 excerpt: "A mighty lion catches a tiny mouse, but chooses to let it go. One day, the little mouse gets a chance to repay the kindness..."
 ---

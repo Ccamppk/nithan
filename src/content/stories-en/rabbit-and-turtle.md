@@ -6,7 +6,6 @@ author: "Aesop"
 adapter: "Nithaan."
 ageRange: "3-8 years"
 readingTime: 4
-cover: "/images/rabbit-turtle.svg"
 publishedAt: 2026-06-01
 excerpt: "The fastest hare in the forest challenges the slow tortoise to a race. But the outcome surprises everyone..."
 ---

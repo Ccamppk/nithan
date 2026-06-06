@@ -6,7 +6,6 @@ author: "Anonymous (European Folklore)"
 adapter: "Nithaan."
 ageRange: "4-10 years"
 readingTime: 6
-cover: "/images/three-pigs.svg"
 publishedAt: 2026-06-03
 excerpt: "Three pig siblings set out to build their own homes. But a hungry wolf is waiting for them..."
 ---

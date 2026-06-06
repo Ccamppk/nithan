@@ -6,7 +6,6 @@ author: "นิรนาม (พื้นบ้านยุโรป)"
 adapter: "Nithaan."
 ageRange: "4-10 ปี"
 readingTime: 6
-cover: "/images/three-pigs.svg"
 publishedAt: 2026-06-03
 excerpt: "ลูกหมูสามพี่น้องออกไปสร้างบ้านของตัวเอง แต่หมาป่าตัวร้ายกำลังรออยู่..."
 ---

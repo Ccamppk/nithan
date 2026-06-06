@@ -6,7 +6,6 @@ author: "อีสป"
 adapter: "Nithaan."
 ageRange: "3-8 ปี"
 readingTime: 3
-cover: "/images/lion-mouse.svg"
 publishedAt: 2026-06-02
 excerpt: "สิงโตราชาแห่งป่าจับหนูตัวเล็กได้ แต่ตัดสินใจปล่อยไป วันหนึ่งหนูตัวนั้นได้มีโอกาสตอบแทนบุญคุณ..."
 ---
