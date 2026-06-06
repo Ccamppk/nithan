@@ -11,6 +11,7 @@ interface Props {
   ageRange: string;
   publishedAt: Date;
   isNew?: boolean;
+  newLabel?: string;
   readingTimeLabel?: string;
 }
 
@@ -23,6 +24,7 @@ const {
   excerpt,
   ageRange,
   isNew = false,
+  newLabel = 'ใหม่',
   readingTimeLabel = 'นาที',
 } = Astro.props;
 ---
@@ -32,7 +34,7 @@ const {
       ? <img src={cover} alt={title} class="story-cover-img" />
       : <span class="material-symbols-outlined">{iconMap[category] ?? 'auto_stories'}</span>
     }
-    {isNew && <span class="new-badge">ใหม่</span>}
+    {isNew && <span class="new-badge">{newLabel}</span>}
   </div>
   <div class="story-body">
     <div class="story-meta">

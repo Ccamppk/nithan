@@ -36,6 +36,7 @@ const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
           ageRange={story.data.ageRange}
           publishedAt={story.data.publishedAt}
           isNew={story.data.publishedAt.valueOf() === maxDate}
+          newLabel="New"
           readingTimeLabel={t.readingTime}
         />
       ))}
