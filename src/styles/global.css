@@ -351,18 +351,14 @@ body.day-mode .story-card {
   position: absolute;
   top: 0.6rem;
   left: 0.6rem;
-  background: var(--text);
-  color: var(--bg);
+  background: #E53935;
+  color: #ffffff;
   font-size: 0.72rem;
   font-weight: 700;
   padding: 0.15rem 0.55rem;
   border-radius: 20px;
   letter-spacing: 0.03em;
   pointer-events: none;
-}
-body.day-mode .new-badge {
-  background: var(--day-text);
-  color: var(--day-bg);
 }
 
 .story-cover {
