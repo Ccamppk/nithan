@@ -25,7 +25,8 @@ const {
   readingTimeLabel = 'นาที',
 } = Astro.props;
 
-const isNew = (Date.now() - new Date(publishedAt).getTime()) < 7 * 24 * 60 * 60 * 1000;
+const today = new Date().toISOString().split('T')[0];
+const isNew = new Date(publishedAt).toISOString().split('T')[0] === today;
 ---
 <a href={href} class="story-card">
   <div class="story-cover">
