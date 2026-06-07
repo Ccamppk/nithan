@@ -36,11 +36,6 @@ const iconMap: Record<string, string> = {
       {cat}
     </h1>
     <p>{stories.length > 0 ? `นิทานทั้งหมด ${stories.length} เรื่องในหมวดนี้` : 'กำลังรวบรวมนิทาน...'}</p>
-    <div class="categories hero-cats">
-      {['สอนใจ', 'แฟนตาซี', 'ผจญภัย', 'นานาชาติ', 'ก่อนนอน'].map(c => (
-        <a href={`/category/${c}`} class={`cat-chip${c === cat ? ' active' : ''}`}>{c}</a>
-      ))}
-    </div>
   </section>
 
   <main class="container">
