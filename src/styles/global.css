@@ -28,7 +28,7 @@ body.day-mode .story-cover .material-symbols-outlined {
 
 /* logo image */
 .logo-img {
-  height: 5.5rem;
+  height: 2rem;
   width: auto;
   display: inline-block;
   vertical-align: middle;
@@ -49,7 +49,7 @@ body.day-mode .logo-img--dark  { display: none; }
 
 /* logo ใน hero */
 .hero-logo {
-  height: clamp(7rem, 25vw, 14rem);
+  height: clamp(4.5rem, 18vw, 9rem);
   width: auto;
   margin: 0 auto;
 }
