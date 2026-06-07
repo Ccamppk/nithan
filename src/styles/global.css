@@ -341,7 +341,7 @@ body.day-mode .section-title {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .story-card {
@@ -627,7 +627,7 @@ body.day-mode .story-content strong { color: var(--day-text); }
 /* ── More button ── */
 .more-btn-wrap {
   text-align: center;
-  padding: 2rem 0 1rem;
+  padding: 0.5rem 0 1rem;
 }
 .more-btn {
   display: inline-flex;
