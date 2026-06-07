@@ -658,7 +658,7 @@ body.day-mode .more-btn:hover {
 /* ── Footer ── */
 .footer {
   text-align: center;
-  padding: 1.5rem 1rem 2rem;
+  padding: 0.8rem 1rem 1rem;
   color: var(--text-muted);
   font-size: 0.85rem;
   border-top: 1px solid var(--border);
