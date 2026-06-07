@@ -643,6 +643,11 @@ body.day-mode .story-content strong { color: var(--day-text); }
   text-decoration: none;
   transition: all 0.2s;
 }
+.more-btn .material-symbols-outlined {
+  font-size: 1.1rem;
+  line-height: 1;
+  translate: 0 0.05em;
+}
 .more-btn:hover {
   background: var(--text);
   color: var(--bg);
