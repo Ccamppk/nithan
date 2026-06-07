@@ -27,7 +27,7 @@ One day, a big hungry wolf came prowling through the forest. He knocked on the d
 
 "Not by the hair of my chinny chin chin!" cried the eldest pig.
 
-"Then I'll huff, and I'll puff, and I'll blow your house in!" The wolf took a deep breath and blew — the straw house collapsed in an instant!
+"Then I'll huff, and I'll puff, and I'll blow your house in!" The wolf took a deep breath and blew - the straw house collapsed in an instant!
 
 The eldest pig ran to his brother's stick house. The wolf followed and blew that one down too!
 

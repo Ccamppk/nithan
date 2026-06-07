@@ -35,7 +35,7 @@ const iconMap: Record<string, string> = {
       <span class="material-symbols-outlined" style="font-size:2rem;">{iconMap[cat] ?? 'auto_stories'}</span>
       {cat}
     </h1>
-    <p>{stories.length > 0 ? `นิทานทั้งหมด ${stories.length} เรื่องในหมวดนี้` : 'กำลังรวบรวมนิทาน...'}</p>
+    <p style="color: var(--text);">{stories.length > 0 ? `นิทานทั้งหมด ${stories.length} เรื่องในหมวดนี้` : 'กำลังรวบรวมนิทาน...'}</p>
   </section>
 
   <main class="container">

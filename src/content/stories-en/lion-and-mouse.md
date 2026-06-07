@@ -11,7 +11,7 @@ excerpt: "A mighty lion catches a tiny mouse, but chooses to let it go. One day,
 cover: "/images/lion-and-mouse.png"
 ---
 
-Once upon a time, a mighty lion — king of the forest — lay sleeping peacefully beneath a tall tree.
+Once upon a time, a mighty lion - king of the forest - lay sleeping peacefully beneath a tall tree.
 
 A small mouse happened to be playing nearby and accidentally ran right across the lion's back.
 
@@ -25,7 +25,7 @@ The lion let out a deep laugh. "How could a tiny mouse like you ever help me?" B
 
 Several days later, the lion was hunting through the forest when he stumbled into a hunter's trap. Thick ropes coiled around him and held him fast. The lion roared for help with all his might.
 
-The little mouse heard that familiar roar and came running at once. It began gnawing through the ropes — one, two, three — until at last every rope snapped free. The lion was released.
+The little mouse heard that familiar roar and came running at once. It began gnawing through the ropes - one, two, three - until at last every rope snapped free. The lion was released.
 
 "Thank you, little mouse," the lion bowed his great head humbly. "I never believed you could truly help me."
 

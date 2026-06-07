@@ -29,7 +29,7 @@ After running half the course, the hare glanced back and couldn't even see the t
 
 The hare lay down beneath a large oak tree and drifted off to sleep.
 
-While the hare slept, the tortoise kept moving forward — step by step, slow but never stopping.
+While the hare slept, the tortoise kept moving forward - step by step, slow but never stopping.
 
 When the hare finally woke, the sun was much lower in the sky. He leaped up and sprinted toward the finish line with all his might. But it was too late.
 

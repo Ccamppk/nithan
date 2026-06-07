@@ -11,15 +11,15 @@ excerpt: "Xiaolan wants to send a lantern to her grandmother who passed away, bu
 cover: "/images/2026-06-07-international.png"
 ---
 
-In a small town along the Yangtze River in China, every January brought the most eagerly awaited celebration of the year — the Lantern Festival, known to the villagers as "Yuanxiao."
+In a small town along the Yangtze River in China, every January brought the most eagerly awaited celebration of the year - the Lantern Festival, known to the villagers as "Yuanxiao."
 
-Xiaolan, a nine-year-old girl, sat carefully folding red paper in the warm kitchen. This year she was determined to make her own lantern for the first time. Not just any lantern — a lotus flower lantern, exactly the kind her grandmother had taught her to make before Grandma passed away two years ago.
+Xiaolan, a nine-year-old girl, sat carefully folding red paper in the warm kitchen. This year she was determined to make her own lantern for the first time. Not just any lantern - a lotus flower lantern, exactly the kind her grandmother had taught her to make before Grandma passed away two years ago.
 
 "Grandma said a lotus lantern would carry wishes all the way to heaven," Xiaolan murmured to herself as she cut the red paper into petals.
 
 Her mother stood watching from a little distance, smiling quietly but saying nothing. She knew that this year her daughter had something she needed to say to Grandma in her heart.
 
-Xiaolan spent the entire day folding and gluing. The lantern slowly took shape — red and gold petals alternating, a small candle set in the center. It looked beautiful.
+Xiaolan spent the entire day folding and gluing. The lantern slowly took shape - red and gold petals alternating, a small candle set in the center. It looked beautiful.
 
 But when she lifted it to test, the base that held the paper together gave way. The lantern nearly collapsed. Xiaolan grabbed it quickly, but part of the paper had already torn.
 
@@ -35,7 +35,7 @@ Her mother was quiet for a moment. Then she picked up a fresh sheet of red paper
 
 "And why did she say it had to be a lotus?"
 
-Xiaolan thought for a moment. "Because the lotus grows in the mud but stays clean and beautiful. Grandma said love is like that too — even when sad things happen, it can still bloom."
+Xiaolan thought for a moment. "Because the lotus grows in the mud but stays clean and beautiful. Grandma said love is like that too - even when sad things happen, it can still bloom."
 
 Her mother nodded. "Then let's make it together. I'll show you the fold Grandma taught me, too."
 
