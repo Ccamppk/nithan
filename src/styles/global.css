@@ -257,7 +257,7 @@ body.day-mode .hero {
   pointer-events: none;
 }
 .hero-tagline {
-  font-size: clamp(4rem, 13vw, 8rem);
+  font-size: clamp(1.8rem, 5vw, 3rem);
   font-weight: 700;
   color: var(--text);
   margin-top: 1.2rem;
