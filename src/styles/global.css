@@ -276,13 +276,13 @@ body.day-mode .hero-tagline { color: var(--day-text); }
   color: var(--gold);
   margin-bottom: 0.6rem;
 }
-.hero p {
+.hero p:not(.hero-tagline) {
   font-size: 1.15rem;
   color: var(--text-muted);
   max-width: 480px;
   margin: 0 auto 2rem;
 }
-body.day-mode .hero p { color: var(--day-text-muted); }
+body.day-mode .hero p:not(.hero-tagline) { color: var(--day-text-muted); }
 
 /* ── Category chips ── */
 .categories {
