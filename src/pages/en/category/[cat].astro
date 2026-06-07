@@ -19,7 +19,7 @@ const { stories } = Astro.props;
 const maxDate = stories.length ? Math.max(...stories.map((s: any) => s.data.publishedAt.valueOf())) : 0;
 ---
 <Base title={`${cat} Stories`} description={`${cat} stories from Nithaan`} lang="en" activeCat={cat}>
-  <section class="hero" style="padding-bottom:2rem;">
+  <section class="hero" style="padding-top:3rem; padding-bottom:2rem;">
     <h1 style="font-size:2.2rem; display:flex; align-items:center; justify-content:center; gap:0.5rem;">
       <span class="material-symbols-outlined" style="font-size:2rem;">{iconMap[cat] ?? 'auto_stories'}</span>
       {cat}
