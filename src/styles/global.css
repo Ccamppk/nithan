@@ -275,6 +275,14 @@ body.day-mode .hero {
 }
 body.day-mode .hero p { color: var(--day-text-muted); }
 
+/* category chips inside hero */
+.hero-cats {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+}
+
 /* ── Category chips ── */
 .categories {
   display: flex;

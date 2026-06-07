@@ -25,6 +25,11 @@ const maxDate = stories.length ? Math.max(...stories.map((s: any) => s.data.publ
       {cat}
     </h1>
     <p>{stories.length > 0 ? `${stories.length} ${t.stories} in this category` : 'Coming soon...'}</p>
+    <div class="categories hero-cats">
+      {ALL_CATEGORIES_EN.map(c => (
+        <a href={`/en/category/${c}`} class={`cat-chip${c === cat ? ' active' : ''}`}>{c}</a>
+      ))}
+    </div>
   </section>
 
   <main class="container">

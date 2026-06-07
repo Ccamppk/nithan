@@ -19,6 +19,11 @@ const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
       <img src="/logo-white.png" alt="Nithaan" class="hero-logo logo-img--white" />
       <img src="/logo-dark.png" alt="Nithaan" class="hero-logo logo-img--dark" />
     </h1>
+    <div class="categories hero-cats">
+      {['สอนใจ', 'แฟนตาซี', 'ผจญภัย', 'นานาชาติ', 'ก่อนนอน'].map(cat => (
+        <a href={`/category/${cat}`} class="cat-chip">{cat}</a>
+      ))}
+    </div>
   </section>
 
   <main class="container">
