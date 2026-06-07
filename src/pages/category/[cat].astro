@@ -13,8 +13,9 @@ export async function getStaticPaths() {
 }
 
 const { cat } = Astro.params;
-const { stories } = Astro.props;
-const maxDate = stories.length ? Math.max(...stories.map((s: any) => s.data.publishedAt.valueOf())) : 0;
+const { stories: rawStories } = Astro.props;
+const stories = rawStories.sort((a: any, b: any) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+const maxDate = stories.length ? stories[0].data.publishedAt.valueOf() : 0;
 
 const iconMap: Record<string, string> = {
   'สอนใจ':    'lightbulb',
