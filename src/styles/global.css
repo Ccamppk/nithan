@@ -658,9 +658,11 @@ body.day-mode .more-btn:hover {
 /* ── Footer ── */
 .footer {
   text-align: center;
-  padding: 0.2rem 1rem 1.5rem;
+  padding: 2.5rem 1rem 3rem;
   color: var(--text-muted);
   font-size: 0.85rem;
+  border-top: 1px solid var(--border);
+  margin-top: 3rem;
 }
 body.day-mode .footer {
   border-top-color: var(--day-border);
