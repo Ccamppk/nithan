@@ -24,7 +24,7 @@ const maxDate = stories.length ? Math.max(...stories.map((s: any) => s.data.publ
       <span class="material-symbols-outlined" style="font-size:2rem;">{iconMap[cat] ?? 'auto_stories'}</span>
       {cat}
     </h1>
-    <p>{stories.length > 0 ? `${stories.length} ${t.stories} in this category` : 'Coming soon...'}</p>
+    <p style="color: var(--text);">{stories.length > 0 ? `${stories.length} ${t.stories} in this category` : 'Coming soon...'}</p>
   </section>
 
   <main class="container">
