@@ -42,10 +42,9 @@ body.day-mode .logo-img--dark  { display: none; }
 
 /* icon ในปุ่มธีม */
 .theme-btn .material-symbols-outlined {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1;
   display: block;
-  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 20;
 }
 
 /* logo ใน hero */
@@ -143,7 +142,7 @@ img { max-width: 100%; display: block; }
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
-  padding: 0.75rem 0;
+  padding: 0;
   transition: background 0.3s;
 }
 body.day-mode .navbar {
@@ -239,21 +238,15 @@ body.day-mode .theme-btn {
 /* ── Hero ── */
 .hero {
   text-align: center;
-  padding: 10rem 1.5rem 14rem;
+  padding: 0.5rem 1.5rem 2rem;
   position: relative;
   overflow: hidden;
-  background-image: url('/bg-light.png');
-  background-size: cover;
-  background-position: center top;
-}
-body.day-mode .hero {
-  background-image: url('/bg-dark.png');
 }
 .hero::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, transparent 50%, var(--bg) 100%);
+  background: radial-gradient(ellipse at 50% 0%, rgba(155,140,204,0.15) 0%, transparent 70%);
   pointer-events: none;
 }
 .hero-stars {
