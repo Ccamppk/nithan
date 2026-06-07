@@ -643,7 +643,7 @@ body.day-mode .footer {
   align-items: center;
   justify-content: center;
   gap: 0.6rem;
-  margin-top: -1.5rem;
+  margin-top: 0.4rem;
   font-size: 0.82rem;
 }
 .footer-links a {

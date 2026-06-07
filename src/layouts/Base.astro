@@ -24,7 +24,7 @@ const langSwitchUrl = isEn ? Astro.url.pathname.replace(/^\/en/, '') || '/' : '/
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description ?? t.siteTagline} />
-    <title>{title} — Nithan</title>
+    <title>{title} — Nithaan</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,8 +34,8 @@ const langSwitchUrl = isEn ? Astro.url.pathname.replace(/^\/en/, '') || '/' : '/
     <nav class="navbar">
       <div class="container navbar-inner">
         <a href={homeUrl} class="logo">
-          <img src="/logo-white.png" alt="Nithan" class="logo-img logo-img--white" />
-          <img src="/logo-dark.png" alt="Nithan" class="logo-img logo-img--dark" />
+          <img src="/logo-white.png" alt="Nithaan" class="logo-img logo-img--white" />
+          <img src="/logo-dark.png" alt="Nithaan" class="logo-img logo-img--dark" />
         </a>
         <ul class="nav-links">
           {cats.map(cat => (
@@ -58,8 +58,8 @@ const langSwitchUrl = isEn ? Astro.url.pathname.replace(/^\/en/, '') || '/' : '/
     <footer class="footer">
       <div class="container">
         <p style="display:flex; align-items:center; justify-content:center; gap:0.8rem; margin:0; padding:0; line-height:1;">
-          <img src="/logo-white.png" alt="Nithan" class="logo-img logo-img--white" style="height:1.8rem;" />
-          <img src="/logo-dark.png" alt="Nithan" class="logo-img logo-img--dark" style="height:1.8rem;" />
+          <img src="/logo-white.png" alt="Nithaan" class="logo-img logo-img--white" style="height:1.2rem;" />
+          <img src="/logo-dark.png" alt="Nithaan" class="logo-img logo-img--dark" style="height:1.2rem;" />
         </p>
         <div class="footer-links">
           <a href={isEn ? '/en/privacy' : '/privacy'}>{t.privacy}</a>

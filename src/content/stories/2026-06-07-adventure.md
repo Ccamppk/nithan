@@ -1,7 +1,7 @@
 ---
 title: "แผนที่ลับของเกาะหลับใหล"
 category: "ผจญภัย"
-source: "Nithan Original"
+source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
 ageRange: "4-10 ปี"
