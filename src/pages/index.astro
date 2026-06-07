@@ -2,6 +2,9 @@
 import Base from '../layouts/Base.astro';
 import StoryCard from '../components/StoryCard.astro';
 import { getCollection } from 'astro:content';
+import { ui } from '../i18n';
+
+const t = ui.th;
 
 const stories = await getCollection('stories');
 const sorted = stories.sort(
@@ -19,6 +22,7 @@ const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
       <img src="/logo-white.png" alt="Nithaan" class="hero-logo logo-img--white" />
       <img src="/logo-dark.png" alt="Nithaan" class="hero-logo logo-img--dark" />
     </h1>
+    <p class="hero-tagline">{t.siteTagline}</p>
   </section>
 
   <main class="container">

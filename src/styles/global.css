@@ -256,6 +256,14 @@ body.day-mode .hero {
   background: linear-gradient(to bottom, transparent 50%, var(--bg) 100%);
   pointer-events: none;
 }
+.hero-tagline {
+  font-size: clamp(1.1rem, 3vw, 1.6rem);
+  color: var(--text-muted);
+  margin-top: 1.2rem;
+  letter-spacing: 0.02em;
+}
+body.day-mode .hero-tagline { color: var(--day-text-muted); }
+
 .hero-stars {
   font-size: 1.4rem;
   letter-spacing: 0.5rem;
