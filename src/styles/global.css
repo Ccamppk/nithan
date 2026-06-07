@@ -457,6 +457,16 @@ body.day-mode .story-excerpt { color: var(--day-text-muted); }
 body.day-mode .story-age { color: var(--day-text-muted); }
 
 /* ── Reader page ── */
+.reader-cover {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  border: 1px solid var(--border);
+}
+body.day-mode .reader-cover { border-color: var(--day-border); }
+
 .reader-wrap {
   max-width: 700px;
   margin: 0 auto;

@@ -52,6 +52,10 @@ const iconMap: Record<string, string> = {
       <button class="font-btn" id="fontLarge" style="font-size:1.3rem;">ก</button>
     </div>
 
+    {story.data.cover && (
+      <img src={story.data.cover} alt={story.data.title} class="reader-cover" />
+    )}
+
     <article class="story-content" id="storyContent">
       <Content />
     </article>
