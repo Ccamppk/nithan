@@ -8,7 +8,7 @@ ageRange: "3-8 years"
 readingTime: 4
 publishedAt: 2026-06-01
 excerpt: "The fastest hare in the forest challenges the slow tortoise to a race. But the outcome surprises everyone..."
-cover: "/images/rabbit-and-turtle.jpg"
+cover: "/images/rabbit-and-turtle.png"
 ---
 
 Once upon a time, deep in a great forest, there lived a hare who was the fastest runner of all the animals. He was always boasting about his speed to anyone who would listen.

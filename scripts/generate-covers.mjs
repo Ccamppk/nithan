@@ -84,7 +84,7 @@ for (const file of files) {
   const slug = file.replace(".md", "");
   const thPath = join(STORIES_TH, file);
   const enPath = join(STORIES_EN, file);
-  const imageName = `${slug}.jpg`;
+  const imageName = `${slug}.png`;
   const imageDest = join(IMAGES_DIR, imageName);
 
   const { front } = parseFrontmatter(readFileSync(thPath, "utf-8"));

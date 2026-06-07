@@ -8,7 +8,7 @@ ageRange: "4-10 years"
 readingTime: 9
 publishedAt: 2026-06-07
 excerpt: "When a storm blows their fishing boat off course, two children discover a mysterious island that appears on no map — and must solve its puzzle before the currents carry them away forever."
-cover: "/images/2026-06-07-adventure.jpg"
+cover: "/images/2026-06-07-adventure.png"
 ---
 
 Fierce waves hammered the small fishing boat. The sky turned black and swallowed the sun in an instant. Mo, ten years old, and her younger brother "Tam," eight years old, gripped the railing so tightly their knuckles turned white.
