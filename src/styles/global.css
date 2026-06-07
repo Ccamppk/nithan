@@ -329,6 +329,9 @@ body.day-mode .cat-chip:hover, body.day-mode .cat-chip.active {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  overflow: visible;
+  padding-top: 0.3rem;
+  line-height: 1.6;
 }
 body.day-mode .section-title {
   color: var(--day-text);
