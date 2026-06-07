@@ -2,7 +2,7 @@ export type Lang = 'th' | 'en';
 
 export const ui = {
   th: {
-    siteTagline: 'บ้านนิทานของทุกคน',
+    siteTagline: 'ทุกหน้า คือการผจญภัย',
     allStories: 'นิทานทั้งหมด',
     readingTime: 'นาที',
     ageRange: 'ช่วงอายุ',
@@ -21,7 +21,7 @@ export const ui = {
     stories: 'เรื่อง',
   },
   en: {
-    siteTagline: 'Stories for Everyone',
+    siteTagline: 'Every page is an adventure',
     allStories: 'All Stories',
     readingTime: 'min read',
     ageRange: 'Age',
