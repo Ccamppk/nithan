@@ -11,7 +11,7 @@ const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
 ---
 <Base title="นิทานทั้งหมด" description="รวมนิทานทุกเรื่องจาก Nithaan">
   <main class="container" style="padding-top:2rem; padding-bottom:3rem;">
-    <h2 class="section-title">นิทานทั้งหมด ({sorted.length} เรื่อง)</h2>
+    <h2 class="section-title">นิทานทั้งหมด</h2>
     <div class="stories-grid">
       {sorted.map(story => (
         <StoryCard
