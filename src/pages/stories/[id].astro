@@ -79,9 +79,27 @@ const iconMap: Record<string, string> = {
       <img src={story.data.cover} alt={story.data.title} class="reader-cover" />
     )}
 
+    <!-- โฆษณาก่อนเนื้อเรื่อง -->
+    <ins class="adsbygoogle ad-story"
+      style="display:block"
+      data-ad-client="ca-pub-3654679826587904"
+      data-ad-slot="auto"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
     <article class="story-content" id="storyContent">
       <Content />
     </article>
+
+    <!-- โฆษณาหลังจบเนื้อเรื่อง -->
+    <ins class="adsbygoogle ad-story"
+      style="display:block"
+      data-ad-client="ca-pub-3654679826587904"
+      data-ad-slot="auto"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
     {(story.data.author || story.data.adapter) && (
       <div class="story-credits">
