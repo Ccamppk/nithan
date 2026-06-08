@@ -13,6 +13,28 @@ export async function getStaticPaths() {
 const { story } = Astro.props;
 const { Content } = await render(story);
 
+const siteUrl = 'https://nithaan.vercel.app';
+const storyUrl = `${siteUrl}/stories/${story.id}`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: story.data.title,
+  description: story.data.excerpt,
+  image: story.data.cover ? new URL(story.data.cover, siteUrl).href : undefined,
+  datePublished: story.data.publishedAt.toISOString(),
+  author: { '@type': 'Organization', name: story.data.author ?? 'Nithaan' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Nithaan',
+    logo: { '@type': 'ImageObject', url: `${siteUrl}/logo-white.png` },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': storyUrl },
+  inLanguage: 'th',
+  genre: story.data.category,
+  typicalAgeRange: story.data.ageRange,
+  timeRequired: `PT${story.data.readingTime}M`,
+};
+
 const iconMap: Record<string, string> = {
   'สอนใจ':    'lightbulb',
   'แฟนตาซี':  'auto_fix_high',
@@ -21,7 +43,8 @@ const iconMap: Record<string, string> = {
   'ก่อนนอน':  'bedtime',
 };
 ---
-<Base title={story.data.title} description={story.data.excerpt}>
+<Base title={story.data.title} description={story.data.excerpt} image={story.data.cover}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <main class="reader-wrap">
 
     <header class="reader-header">

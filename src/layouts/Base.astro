@@ -5,12 +5,24 @@ import { ui, type Lang, ALL_CATEGORIES_EN } from '../i18n';
 interface Props {
   title: string;
   description?: string;
+  image?: string;
   activeCat?: string;
   lang?: Lang;
 }
-const { title, description, activeCat, lang = 'th' } = Astro.props;
+const { title, description, image, activeCat, lang = 'th' } = Astro.props;
 const t = ui[lang];
 const isEn = lang === 'en';
+
+const siteUrl = 'https://nithaan.vercel.app';
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).href;
+const ogImage = image
+  ? new URL(image, siteUrl).href
+  : `${siteUrl}/logo-white.png`;
+const fullTitle = `${title} - Nithaan`;
+const metaDescription = description ?? t.siteTagline;
+const altLangUrl = isEn
+  ? new URL(Astro.url.pathname.replace(/^\/en/, '') || '/', siteUrl).href
+  : new URL('/en' + Astro.url.pathname, siteUrl).href;
 
 const ALL_CATEGORIES_TH = ['สอนใจ', 'แฟนตาซี', 'ผจญภัย', 'นานาชาติ', 'ก่อนนอน'];
 const cats = isEn ? ALL_CATEGORIES_EN : ALL_CATEGORIES_TH;
@@ -23,8 +35,33 @@ const langSwitchUrl = isEn ? Astro.url.pathname.replace(/^\/en/, '') || '/' : '/
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content={description ?? t.siteTagline} />
-    <title>{title} - Nithaan</title>
+    <title>{fullTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- hreflang for TH/EN -->
+    <link rel="alternate" hreflang={isEn ? 'en' : 'th'} href={canonicalUrl} />
+    <link rel="alternate" hreflang={isEn ? 'th' : 'en'} href={altLangUrl} />
+    <link rel="alternate" hreflang="x-default" href={isEn ? altLangUrl : canonicalUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Nithaan" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1536" />
+    <meta property="og:image:height" content="1024" />
+    <meta property="og:locale" content={isEn ? 'en_US' : 'th_TH'} />
+    <meta property="og:locale:alternate" content={isEn ? 'th_TH' : 'en_US'} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={ogImage} />
+
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/favicon.png" />
