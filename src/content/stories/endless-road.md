@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 13
+ageRange: "4-9 ปี"
+readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว มีถนนที่เดินเท่าไหร่ก็ไม่ถึงปลาย เด็กหญิงชื่อยาวเดินมาสามวันแล้วยังไม่เห็นจุดหมาย จนกระทั่งเธอหยุดเดินและมองรอบตัว"
 cover: "/images/endless-road.png"

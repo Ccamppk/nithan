@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 13
+ageRange: "4-9 ปี"
+readingTime: 8
 publishedAt: 2026-06-13
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว มีถ้ำบนภูเขาที่กระซิบความลับให้คนที่เข้าไป แต่ถ้าฟังนานเกินไปจะออกมาไม่ได้ เด็กสองคนเข้าไปด้วยกัน และมีเพียงมิตรภาพที่จะพาพวกเขากลับออกมา"
 cover: "/images/whisper-cave.png"

@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-10 ปี"
-readingTime: 8
+ageRange: "4-9 ปี"
+readingTime: 7
 publishedAt: 2026-06-08
 excerpt: "เมื่อลินกับพลูเข้าไปสำรวจถ้ำเก่าหลังหมู่บ้าน ไฟฉายดับและทางออกหายไป พวกเขาต้องใช้ทักษะและความไว้วางใจกันเพื่อหาทางกลับ"
 cover: "/images/cave-of-echoes.png"

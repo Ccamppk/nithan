@@ -4,7 +4,7 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
+ageRange: "6-12 ปี"
 readingTime: 11
 publishedAt: 2026-06-10
 excerpt: "อิซาเบลเตรียมแท่นบูชาเพื่อรำลึกถึงอาบูเอลิโตผู้เป็นที่รักในเทศกาล Día de los Muertos ของเม็กซิโก และค้นพบว่าความรักไม่มีวันสิ้นสุด"

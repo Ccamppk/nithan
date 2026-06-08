@@ -4,8 +4,8 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "5-10 ปี"
+readingTime: 8
 publishedAt: 2026-06-13
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว เด็กหญิงชื่อหิมะได้เดินทางไปฟินแลนด์และได้พบซานตาคลอสตัวจริง แต่สิ่งที่ซานตาบอกเธอนั้นไม่เหมือนที่เธอคาดไว้เลยสักนิด"
 cover: "/images/finland-santa.png"

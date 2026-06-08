@@ -4,8 +4,8 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "6-12 ปี"
+readingTime: 15
 publishedAt: 2026-06-09
 excerpt: "อาหยานอยากทำโคมดิวาลีที่สวยที่สุดในย่านไจปุระ แต่เมื่อเขาพบเพื่อนบ้านที่ไม่มีโคมจะจุด เขาก็ได้เรียนรู้ว่าความหมายแท้ของเทศกาลแห่งแสงคืออะไร"
 cover: "/images/aryan-diwali.png"

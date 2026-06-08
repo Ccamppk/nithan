@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "4-10 ปี"
-readingTime: 9
+ageRange: "5-10 ปี"
+readingTime: 10
 publishedAt: 2026-06-07
 excerpt: "เมื่อพายุพัดเรือประมงหลงทาง เด็กสองคนพบเกาะลึกลับที่ไม่มีในแผนที่ และต้องช่วยกันไขปริศนาก่อนที่กระแสน้ำจะหอบพาพวกเขาไป"
 cover: "/images/2026-06-07-adventure.png"

@@ -4,8 +4,8 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "6-12 ปี"
+readingTime: 10
 publishedAt: 2026-06-11
 excerpt: "ก้องย้ายไปอยู่บราซิลกับพ่อที่ไปทำงาน เขาไม่รู้ภาษา ไม่มีเพื่อน จนกระทั่งได้พบกับเทศกาลคาร์นิวัลและเด็กชายชื่อเปาโลที่สอนว่าการเต้นรำคือภาษากลางของโลก"
 cover: "/images/brazil-carnival.png"

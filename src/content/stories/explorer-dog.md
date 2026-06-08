@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 13
+ageRange: "5-10 ปี"
+readingTime: 9
 publishedAt: 2026-06-11
 excerpt: "ด่างเป็นหมาตัวเล็กที่ฝันอยากสำรวจโลก วันหนึ่งเขาหนีออกจากบ้านคนเดียว และพบว่าโลกกว้างใหญ่กว่าที่คิด ทั้งสวยงามและน่ากลัวในเวลาเดียวกัน"
 cover: "/images/explorer-dog.png"

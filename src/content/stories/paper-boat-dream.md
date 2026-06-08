@@ -4,8 +4,8 @@ category: "ก่อนนอน"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "3-7 ปี"
+readingTime: 9
 publishedAt: 2026-06-13
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว ทุกคืนเมื่อเด็กๆ หลับตา แม่น้ำฝันจะไหลผ่านใต้เตียง และเรือกระดาษจะพาพวกเขาไปยังดินแดนที่ต้องการมากที่สุด"
 cover: "/images/paper-boat-dream.png"

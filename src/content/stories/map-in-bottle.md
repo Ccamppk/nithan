@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 13
+ageRange: "5-10 ปี"
+readingTime: 10
 publishedAt: 2026-06-11
 excerpt: "ต้นและปลาพบขวดแก้วปริศนาริมคลอง ข้างในมีแผนที่เก่าพับอยู่ ทั้งคู่ออกตามหาสมบัติในแผนที่ และพบสิ่งที่มีค่ากว่าทองคำ"
 cover: "/images/map-in-bottle.png"

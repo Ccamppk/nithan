@@ -4,8 +4,8 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 13
+ageRange: "5-10 ปี"
+readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว เด็กชายชาวเคนยาชื่อคัมบิลีพาเพื่อนนักท่องเที่ยวชาวต่างชาติไปดูสัตว์ป่า และสอนให้เธอเข้าใจว่าซาฟารีที่แท้จริงไม่ใช่แค่การถ่ายรูป แต่คือการเคารพธรรมชาติ"
 cover: "/images/kenya-safari.png"

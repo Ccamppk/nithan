@@ -5,7 +5,7 @@ source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
 ageRange: "6-12 ปี"
-readingTime: 12
+readingTime: 11
 publishedAt: 2026-06-10
 excerpt: "ฝนและก้องหลงทางในป่าระหว่างแคมปิ้ง ไม่มีโทรศัพท์ ไม่มีเข็มทิศ มีเพียงความรู้เรื่องดาวที่ครูสอน และความเชื่อใจระหว่างกัน"
 cover: "/images/star-map.png"

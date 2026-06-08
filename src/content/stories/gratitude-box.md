@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "5-10 ปี"
+readingTime: 10
 publishedAt: 2026-06-11
 excerpt: "มายชอบบ่นทุกอย่างในชีวิต จนครูให้เธอลองทำกล่องขอบคุณ หนึ่งสัปดาห์ต่อมา โลกของเธอเปลี่ยนไปโดยที่ไม่มีอะไรเปลี่ยนเลย"
 cover: "/images/gratitude-box.png"

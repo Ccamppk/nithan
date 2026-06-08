@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "3-7 ปี"
+readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว มีหุบเขาที่ร้องเพลงตอบรับทุกเสียงที่ดัง เด็กหญิงที่ร้องเพลงไม่เป็นเดินเข้าไปในหุบเขาเพื่อตามหาเสียงที่สวยงามที่สุดในโลก และพบว่ามันซ่อนอยู่ในตัวเธอเอง"
 cover: "/images/singing-valley.png"

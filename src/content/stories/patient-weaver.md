@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "4-9 ปี"
+readingTime: 7
 publishedAt: 2026-06-13
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว หญิงสาวชื่อนวลได้รับกี่ทอผ้าวิเศษที่ทอได้แค่ความจริง เธออยากทอผ้าสวยงามแต่ผ้ากลับออกมาเป็นภาพชีวิตที่เธอไม่อยากเห็น"
 cover: "/images/patient-weaver.png"

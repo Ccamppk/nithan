@@ -4,8 +4,8 @@ category: "ก่อนนอน"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "4-8 ปี"
+readingTime: 9
 publishedAt: 2026-06-12
 excerpt: "กาลครั้งหนึ่ง มีเมืองลึกลับที่ปรากฏขึ้นเฉพาะเมื่อเด็กๆ หลับตาและใจเริ่มสงบ ในเมืองนั้นทุกความฝันเป็นจริงได้ และทางเข้าคือการปล่อยให้ตัวเองพักผ่อน"
 cover: "/images/dream-mist-city.png"

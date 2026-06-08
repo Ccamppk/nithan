@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 13
+ageRange: "4-9 ปี"
+readingTime: 7
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว มีเด็กชายชื่อสูงที่กลัวความสูงกว่าสิ่งอื่นใดในโลก แต่เมื่อน้องสาวตกลงไปในโพรงหน้าผา เขาต้องเลือกว่าจะยอมแพ้ต่อความกลัว หรือเอาชนะมันเพื่อคนที่รัก"
 cover: "/images/afraid-of-heights.png"

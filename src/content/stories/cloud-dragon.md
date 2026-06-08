@@ -4,8 +4,8 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "4-9 ปี"
+readingTime: 7
 publishedAt: 2026-06-12
 excerpt: "กาลครั้งหนึ่ง มังกรน้อยชื่อเมฆหายใจออกมาเป็นก้อนเมฆแทนที่จะเป็นไฟ เพื่อนๆ หัวเราะเยาะ แต่วันที่ภัยแล้งมาเยือน เมฆต่างหากที่กลายเป็นฮีโร่"
 cover: "/images/cloud-dragon.png"

@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "4-9 ปี"
+readingTime: 7
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว เด็กหญิงชื่อขวัญกลัวทุกอย่าง เธอพบตะเกียงวิเศษที่ทำให้กล้าขึ้น แต่เมื่อตะเกียงดับลง เธอต้องค้นพบว่าความกล้าอยู่ที่ไหนกันแน่"
 cover: "/images/courage-lantern.png"

@@ -4,8 +4,8 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 10
+ageRange: "6-12 ปี"
+readingTime: 12
 publishedAt: 2026-06-10
 excerpt: "มินจุนไม่อยากไปบ้านปู่ย่าที่ชนบทในวันชูซอก แต่เมื่อได้เรียนรู้ความหมายของเทศกาลเก็บเกี่ยวของเกาหลีผ่านมือของย่าและรสชาติของซงพยอน เขาก็ค้นพบสิ่งที่มีค่ากว่าวันหยุดทุกอย่าง"
 cover: "/images/seoul-chuseok.png"

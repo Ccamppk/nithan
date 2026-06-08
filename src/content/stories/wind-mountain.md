@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 13
+ageRange: "4-9 ปี"
+readingTime: 7
 publishedAt: 2026-06-12
 excerpt: "กาลครั้งหนึ่ง เด็กชายชื่อพลต้องปีนภูเขาแห่งลมเพื่อเก็บดอกไม้วิเศษมารักษาคุณยายที่ป่วย แต่ภูเขานั้นไม่ยอมให้ใครผ่านง่ายๆ"
 cover: "/images/wind-mountain.png"

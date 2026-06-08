@@ -4,8 +4,8 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "4-10 ปี"
-readingTime: 8
+ageRange: "4-9 ปี"
+readingTime: 7
 publishedAt: 2026-06-08
 excerpt: "ต้นพบบันไดลึกลับในสวนหลังบ้านที่พาเขาขึ้นไปสู่บ้านแปลกบนก้อนเมฆ ที่นั่นมีผู้ดูแลเมฆที่เฝ้ารอเพื่อนมาช้านาน"
 cover: "/images/house-on-cloud.png"

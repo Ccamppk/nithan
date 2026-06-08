@@ -4,8 +4,8 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "6-12 ปี"
+readingTime: 14
 publishedAt: 2026-06-10
 excerpt: "ดาวพบบานประตูลึกลับในดินกลางสวนที่นำไปสู่เมืองจิ๋วที่มีคนเห็ดอาศัยอยู่ ซึ่งกำลังอยู่ในความมืดเพราะดวงแก้วแสงสว่างของพวกเขาดับไป"
 cover: "/images/underground-city.png"

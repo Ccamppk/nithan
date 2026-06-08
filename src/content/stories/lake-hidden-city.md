@@ -4,8 +4,8 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "4-9 ปี"
+readingTime: 8
 publishedAt: 2026-06-13
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว เด็กหญิงชื่อใสค้นพบว่าทะเลสาบหลังบ้านซ่อนเมืองเก่าแก่ไว้ใต้น้ำ และชาวเมืองกำลังรอคนที่กล้าพอจะดำลงไปฟังเรื่องราวของพวกเขา"
 cover: "/images/lake-hidden-city.png"

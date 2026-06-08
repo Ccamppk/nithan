@@ -4,7 +4,7 @@ category: "ก่อนนอน"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
+ageRange: "4-8 ปี"
 readingTime: 11
 publishedAt: 2026-06-11
 excerpt: "ทุกคืนก่อนนอน คุณปู่จะพาแก้วนับเข็มนาฬิกาเก่าทีละอัน เมื่อนับครบ แก้วจะหลับไปเองโดยไม่รู้ตัว และในความฝัน เขาจะได้พบกับคุณปู่อีกครั้งเสมอ"

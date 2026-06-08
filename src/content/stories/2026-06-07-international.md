@@ -4,8 +4,8 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "4-10 ปี"
-readingTime: 8
+ageRange: "6-12 ปี"
+readingTime: 11
 publishedAt: 2026-06-07
 excerpt: "เซี่ยวหลานเด็กหญิงชาวจีนอยากส่งโคมไฟให้ย่าที่เสียไปนานแล้ว แต่โคมที่เธอทำพังก่อนกลางคืนจะมาถึง ความรักจะช่วยให้เธอก้าวผ่านความผิดหวังได้ไหม"
 cover: "/images/2026-06-07-international.png"

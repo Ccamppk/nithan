@@ -4,8 +4,8 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "5-10 ปี"
+readingTime: 5
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว เด็กชายชาวเมารีในนิวซีแลนด์ได้รับมอบหมายให้เล่าเรื่องประจำเผ่าต่อหน้าทุกคนในงานใหญ่ แต่เขากลัวจนลืมเรื่องทั้งหมด และต้องค้นหาเรื่องราวจากหัวใจ"
 cover: "/images/maori-storyteller.png"

@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "5-10 ปี"
+readingTime: 8
 publishedAt: 2026-06-12
 excerpt: "กาลครั้งหนึ่ง มีต้นไม้วิเศษที่พูดได้ แต่พูดได้แค่ความจริงเท่านั้น เด็กหญิงแก้วอยากรู้ว่าเธอเป็นคนดีไหม และคำตอบที่ได้ทำให้ชีวิตเธอเปลี่ยนไปตลอดกาล"
 cover: "/images/truth-tree.png"

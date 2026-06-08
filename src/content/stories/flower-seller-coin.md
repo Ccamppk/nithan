@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 9
+ageRange: "5-10 ปี"
+readingTime: 10
 publishedAt: 2026-06-10
 excerpt: "แม่นวลพบเหรียญทองตรงหน้าแผง เธอรอคอยเจ้าของทั้งวันท่ามกลางคำชักชวนให้เก็บไว้ และค้นพบว่าความซื่อสัตย์มีราคาที่จ่ายแล้วคุ้มเสมอ"
 cover: "/images/flower-seller-coin.png"

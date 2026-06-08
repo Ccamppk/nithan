@@ -4,8 +4,8 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 13
+ageRange: "5-10 ปี"
+readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว เด็กชายชาวอินเดียชื่ออาร์จุนไม่ยอมเล่นโฮลีเพราะกลัวเสื้อผ้าเปื้อน แต่เมื่อเพื่อนเก่าที่เขาทะเลาะกันมาขอคืนดีด้วยการสาดสีใส่ เขาก็เข้าใจว่าโฮลีไม่ใช่แค่เรื่องสี"
 cover: "/images/india-holi.png"

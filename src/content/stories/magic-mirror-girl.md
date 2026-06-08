@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "4-9 ปี"
+readingTime: 6
 publishedAt: 2026-06-15
 excerpt: "นานมาแล้ว มีเด็กหญิงที่ไม่ชอบหน้าตาของตัวเอง จนกระทั่งพบกระจกวิเศษที่ทำให้เธอเห็นความงามที่ซ่อนอยู่ในตัวเองมาตลอด"
 cover: "/images/magic-mirror-girl.png"

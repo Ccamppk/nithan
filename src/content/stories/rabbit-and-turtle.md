@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "อีสป (เรียบเรียงใหม่)"
 author: "อีสป"
 adapter: "Nithaan."
-ageRange: "3-8 ปี"
-readingTime: 4
+ageRange: "4-9 ปี"
+readingTime: 6
 publishedAt: 2026-06-01
 excerpt: "กระต่ายที่วิ่งเร็วที่สุดในป่า ท้าแข่งกับเต่าที่เชื่องช้า แต่ผลลัพธ์กลับทำให้ทุกคนประหลาดใจ..."
 cover: "/images/rabbit-and-turtle.png"

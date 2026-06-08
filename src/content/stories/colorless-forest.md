@@ -4,8 +4,8 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "5-10 ปี"
+readingTime: 9
 publishedAt: 2026-06-12
 excerpt: "กาลครั้งหนึ่ง ป่าวิเศษสูญเสียสีทุกอย่างจนกลายเป็นขาวดำ มีเพียงเด็กหญิงชื่อสีที่รู้ว่าจะคืนสีให้ป่าได้อย่างไร แต่ต้องแลกด้วยสิ่งที่เธอรักที่สุด"
 cover: "/images/colorless-forest.png"

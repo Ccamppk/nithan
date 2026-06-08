@@ -4,8 +4,8 @@ category: "ก่อนนอน"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "3-10 ปี"
-readingTime: 8
+ageRange: "4-8 ปี"
+readingTime: 13
 publishedAt: 2026-06-10
 excerpt: "ทุกคืน ยักษ์ตัวใหญ่ใจดีชื่อโบโรจะเดินเบาๆ ผ่านหลังคาบ้านทุกหลัง เพื่อโรยฝุ่นดาวและนำความฝันงามๆ มาฝากเด็กๆ ที่นอนหลับสนิทแล้ว"
 cover: "/images/kind-giant-dreams.png"

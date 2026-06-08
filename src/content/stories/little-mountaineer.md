@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 10
+ageRange: "5-10 ปี"
+readingTime: 11
 publishedAt: 2026-06-10
 excerpt: "เมื่อตาปีนเขาไปแล้วไม่กลับ น้ำต้องออกตามหาคนเดียว เผชิญกับหน้าผาแคบ ลำธารเชี่ยว และหมอกหนา เพื่อพาคนที่รักกลับบ้าน"
 cover: "/images/little-mountaineer.png"

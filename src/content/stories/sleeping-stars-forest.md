@@ -4,8 +4,8 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 14
+ageRange: "6-12 ปี"
+readingTime: 13
 publishedAt: 2026-06-09
 excerpt: "เมื่อดาวบนท้องฟ้าเริ่มดับทีละดวง ออนเด็กหญิงตัวเล็กต้องเดินทางเข้าป่าต้องห้ามเพื่อตามหาดาวที่หลับหายไป"
 cover: "/images/sleeping-stars-forest.png"

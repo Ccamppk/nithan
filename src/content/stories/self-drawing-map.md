@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 13
+ageRange: "3-7 ปี"
+readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว เด็กชายชื่อแผนพบแผนที่ที่วาดตัวเองตามทุกที่ที่เขาเดิน แต่เมื่อเขาเดินผิดทาง แผนที่ก็วาดผิดทางด้วย และเขาต้องเรียนรู้ว่าแผนที่ชีวิตสร้างจากการตัดสินใจของตัวเอง"
 cover: "/images/self-drawing-map.png"

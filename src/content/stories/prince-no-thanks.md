@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "5-10 ปี"
+readingTime: 10
 publishedAt: 2026-06-12
 excerpt: "กาลครั้งหนึ่ง เจ้าชายอาทิตย์ไม่เคยพูดว่าขอบคุณใครเลยสักครั้ง จนวันหนึ่งทุกคนในวังพากันหายไป และเขาต้องเรียนรู้ว่าสองคำเล็กๆ นั้นมีความหมายมากแค่ไหน"
 cover: "/images/prince-no-thanks.png"

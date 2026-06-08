@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "4-9 ปี"
+readingTime: 8
 publishedAt: 2026-06-13
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว นายพรานผู้หิวโหยพบกวางทองในป่า แต่เมื่อกวางมองตรงมา เขาวางธนูลง และการตัดสินใจนั้นเปลี่ยนชีวิตเขาไปตลอดกาล"
 cover: "/images/golden-deer-hunter.png"

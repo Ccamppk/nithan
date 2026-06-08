@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 13
+ageRange: "6-12 ปี"
+readingTime: 15
 publishedAt: 2026-06-09
 excerpt: "นวลใจพบตะเกียงวิเศษในป่าที่ให้พรสามประการ แต่บทเรียนที่แท้จริงไม่ได้อยู่ที่สิ่งที่ขอ แต่อยู่ที่สิ่งที่เลือกจะให้"
 cover: "/images/boy-and-lantern.png"

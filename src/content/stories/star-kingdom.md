@@ -4,8 +4,8 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "4-9 ปี"
+readingTime: 7
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว มีอาณาจักรที่สร้างจากดวงดาว แต่ละดาวคือความฝันของเด็กคนหนึ่ง และเมื่อเด็กหญิงดาวน้อยขึ้นไปถึง เธอพบว่าดาวดวงสว่างที่สุดคือความฝันของใคร"
 cover: "/images/star-kingdom.png"

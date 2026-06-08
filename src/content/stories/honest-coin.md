@@ -4,7 +4,7 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
+ageRange: "6-12 ปี"
 readingTime: 12
 publishedAt: 2026-06-11
 excerpt: "เป้เจอกระเป๋าสตางค์ที่มีเงินอยู่ข้างใน ใจหนึ่งอยากเก็บ ใจหนึ่งบอกว่าต้องคืน วันนั้นเขาเรียนรู้ว่าความซื่อสัตย์ให้สิ่งที่ซื้อด้วยเงินไม่ได้"

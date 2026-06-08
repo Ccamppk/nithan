@@ -4,8 +4,8 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "5-10 ปี"
+readingTime: 9
 publishedAt: 2026-06-12
 excerpt: "กาลครั้งหนึ่ง เด็กชายโอ๊คไปเที่ยวเนเธอร์แลนด์แล้วหลงทางในทุ่งทิวลิปที่กว้างใหญ่ไพศาล เด็กชายชาวดัตช์ชื่อลาร์สช่วยพาเขากลับ และสอนให้เขารู้จักเส้นทางที่ดีที่สุดในชีวิต"
 cover: "/images/netherlands-tulip.png"

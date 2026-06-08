@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "6-12 ปี"
+readingTime: 16
 publishedAt: 2026-06-09
 excerpt: "ไพและปลาพับเรือกระดาษปล่อยลงลำธาร แต่เมื่อเรือโตขึ้นจนพอขึ้นได้ การผจญภัยที่ยิ่งใหญ่ก็เริ่มต้นขึ้น"
 cover: "/images/paper-boat-ocean.png"

@@ -4,7 +4,7 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
+ageRange: "6-12 ปี"
 readingTime: 11
 publishedAt: 2026-06-10
 excerpt: "แสงพบลูกนกที่บาดเจ็บในป่า ดูแลมันด้วยความรัก จนค้นพบว่านั่นคือฟีนิกซ์ตัวสุดท้ายในโลก และไฟของมันดับไปพร้อมกับการที่ไม่มีใครเชื่อว่ามันมีอยู่จริง"

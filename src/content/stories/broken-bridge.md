@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 13
+ageRange: "4-9 ปี"
+readingTime: 8
 publishedAt: 2026-06-12
 excerpt: "กาลครั้งหนึ่ง เด็กหญิงฝนต้องข้ามแม่น้ำที่สะพานพังไปแล้วเพื่อไปส่งยาให้หมู่บ้านอีกฝั่ง เธอมีเพียงสิ่งของในกระเป๋าและไหวพริบของตัวเอง"
 cover: "/images/broken-bridge.png"

@@ -4,8 +4,8 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "4-9 ปี"
+readingTime: 7
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว เด็กชายชื่อฝันจำความฝันของทุกคนได้เมื่อตื่นนอน และเขาพบว่าในความฝันของคนรอบข้าง มีสิ่งที่พวกเขาไม่กล้าพูดออกมาตอนตื่น"
 cover: "/images/dream-keeper.png"

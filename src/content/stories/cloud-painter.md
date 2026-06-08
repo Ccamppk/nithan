@@ -4,8 +4,8 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "5-10 ปี"
+readingTime: 9
 publishedAt: 2026-06-11
 excerpt: "ฟ้าค้นพบว่าภาพวาดเมฆของเธอลอยขึ้นท้องฟ้าจริงๆ แต่เมื่อเธอวาดมากเกินไป ท้องฟ้าก็มืดลง และเธอต้องเรียนรู้ว่าความพอดีคือสิ่งสำคัญที่สุด"
 cover: "/images/cloud-painter.png"

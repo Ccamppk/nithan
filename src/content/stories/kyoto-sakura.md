@@ -4,8 +4,8 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "5-10 ปี"
+readingTime: 8
 publishedAt: 2026-06-12
 excerpt: "กาลครั้งหนึ่ง เด็กหญิงดาวได้ไปเที่ยวญี่ปุ่นในฤดูซากุระบาน เธอได้พบกับเด็กหญิงชาวญี่ปุ่นชื่อฮานะ และเรียนรู้ว่าความงามบางอย่างงดงามกว่าเพราะมันไม่ได้อยู่นาน"
 cover: "/images/kyoto-sakura.png"

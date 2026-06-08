@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "4-9 ปี"
+readingTime: 7
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว เด็กชายชื่อเอกสังเกตว่าเงาของเขาเริ่มทำในสิ่งที่เขาไม่ได้ทำ มันโค้งคำนับให้คนแก่ มันช่วยคนอื่น และมันทำให้เขาต้องถามตัวเองว่าเงาของเขาดีกว่าตัวเขาจริงไหม"
 cover: "/images/shadow-boy.png"

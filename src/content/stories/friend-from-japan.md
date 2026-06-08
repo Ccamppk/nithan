@@ -4,7 +4,7 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "4-10 ปี"
+ageRange: "5-10 ปี"
 readingTime: 7
 publishedAt: 2026-06-08
 excerpt: "เมื่อฮารุโกะนักเรียนใหม่จากญี่ปุ่นมาโรงเรียน ไม่มีใครพูดกันได้ จนกระทั่งจิ๋วพบว่าภาษาหัวใจไม่ต้องแปล"

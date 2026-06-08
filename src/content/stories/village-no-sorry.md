@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "5-10 ปี"
+readingTime: 8
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว มีหมู่บ้านแห่งหนึ่งที่ไม่มีใครพูดคำว่าขอโทษเลยสักครั้ง ทุกคนคิดว่าตัวเองถูกเสมอ จนกระทั่งหมู่บ้านเริ่มแตกแยกออกจากกันทีละนิด"
 cover: "/images/village-no-sorry.png"

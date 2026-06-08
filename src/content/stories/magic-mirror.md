@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "4-10 ปี"
-readingTime: 7
+ageRange: "4-9 ปี"
+readingTime: 8
 publishedAt: 2026-06-08
 excerpt: "มายาชอบพูดติเพื่อน จนกระทั่งกระจกวิเศษแสดงให้เธอเห็นสิ่งที่คนอื่นมองเห็นในตัวเธอเอง"
 cover: "/images/magic-mirror.png"

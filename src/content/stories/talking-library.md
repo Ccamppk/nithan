@@ -4,8 +4,8 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "5-10 ปี"
+readingTime: 10
 publishedAt: 2026-06-11
 excerpt: "พีรค้นพบว่าหนังสือในห้องสมุดเก่าแห่งหนึ่งพูดได้ แต่ละเล่มมีเรื่องเล่าของตัวเอง และหนังสือที่เก่าที่สุดมีความลับที่เขาไม่คาดคิด"
 cover: "/images/talking-library.png"

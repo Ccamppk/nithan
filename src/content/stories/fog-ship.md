@@ -4,8 +4,8 @@ category: "ผจญภัย"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 13
+ageRange: "4-9 ปี"
+readingTime: 7
 publishedAt: 2026-06-13
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว มีเรือลึกลับที่โผล่มาในหมอกยามเช้าเพียงปีละครั้ง เด็กชายชื่อลมขึ้นเรือโดยไม่รู้ว่าจะพาไปที่ไหน และสิ่งที่เขาพบในการเดินทางนั้นเกินกว่าที่เคยจินตนาการ"
 cover: "/images/fog-ship.png"

@@ -4,8 +4,8 @@ category: "นานาชาติ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "5-10 ปี"
+readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว เด็กหญิงชาวจีนชื่อเซียวเหม่ยไม่เข้าใจว่าทำไมต้องทำทุกอย่างในคืนตรุษจีนให้ยุ่งยากขนาดนี้ จนกระทั่งคุณปู่เล่าเรื่องสัตว์ประหลาดเหนียนให้ฟัง"
 cover: "/images/chinese-new-year.png"

@@ -4,8 +4,8 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "4-9 ปี"
+readingTime: 8
 publishedAt: 2026-06-13
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว ในโรงเรียนสอนเวทมนตร์มีหนังสือหนึ่งเล่มที่ห้ามเปิด เด็กชายชื่อจิตรอยากรู้ว่าทำไม และสิ่งที่เขาพบข้างในเปลี่ยนความเข้าใจของเขาไปตลอดกาล"
 cover: "/images/wizard-forbidden-book.png"

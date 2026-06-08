@@ -4,8 +4,8 @@ category: "ก่อนนอน"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "4-10 ปี"
-readingTime: 10
+ageRange: "4-8 ปี"
+readingTime: 16
 publishedAt: 2026-06-09
 excerpt: "ดินนอนไม่หลับและโกรธว่าทำไมถึงต้องนอนเร็ว จนกระทั่งดวงจันทร์เล่าเรื่องราวของเด็กๆ ทั่วโลกที่กำลังหลับฝันอยู่ในขณะนี้"
 cover: "/images/moon-storyteller.png"

@@ -4,8 +4,8 @@ category: "ก่อนนอน"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "3-7 ปี"
+readingTime: 8
 publishedAt: 2026-06-13
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว มีนางฟ้าตัวเล็กที่ทำหน้าที่โปรยฝุ่นทองให้เด็กๆ หลับสนิท คืนหนึ่งเธอเหนื่อยมากจนเกือบลืมบ้านหนึ่งหลัง และเด็กที่รอฝันดีก็สอนเธอถึงสิ่งสำคัญที่สุด"
 cover: "/images/dream-fairy.png"

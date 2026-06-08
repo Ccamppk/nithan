@@ -4,8 +4,8 @@ category: "ก่อนนอน"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "3-10 ปี"
-readingTime: 9
+ageRange: "4-8 ปี"
+readingTime: 13
 publishedAt: 2026-06-10
 excerpt: "ทุกคืนเมื่อนุ่นหลับตาลง เธอจะได้ยินเสียงหายใจของป่า และเดินเข้าไปในโลกที่ต้นไม้ร้องเพลง แม่น้ำกล่อมนอน และดาวลงมานั่งเป็นเพื่อน"
 cover: "/images/breathing-forest.png"

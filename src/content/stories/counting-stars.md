@@ -4,8 +4,8 @@ category: "ก่อนนอน"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "4-8 ปี"
+readingTime: 10
 publishedAt: 2026-06-11
 excerpt: "ทุกคืนแม่จะพาพิมนับดาวผ่านหน้าต่าง ดาวดวงแรกคือความฝัน ดวงที่สองคือความกล้า ดวงที่สามคือความรัก และเมื่อนับครบ ความฝันก็จะพาเธอไปสู่โลกที่สวยงาม"
 cover: "/images/counting-stars.png"

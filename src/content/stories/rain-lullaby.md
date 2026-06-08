@@ -4,8 +4,8 @@ category: "ก่อนนอน"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "3-8 ปี"
-readingTime: 10
+ageRange: "3-7 ปี"
+readingTime: 7
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว สายฝนที่ตกลงมาทุกคืนคือเพลงกล่อมจากท้องฟ้า ที่ร้องให้กับเด็กทุกคนในโลกให้หลับฝันดีพร้อมกัน"
 cover: "/images/rain-lullaby.png"

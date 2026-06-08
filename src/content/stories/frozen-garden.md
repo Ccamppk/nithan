@@ -4,8 +4,8 @@ category: "แฟนตาซี"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 11
+ageRange: "4-9 ปี"
+readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว มีสวนที่เวลาหยุดนิ่งมาร้อยปี ดอกไม้ค้างในท่าบาน ผีเสื้อค้างในอากาศ และเด็กหญิงที่เข้าไปต้องหาวิธีเริ่มเวลาใหม่ก่อนที่เธอจะติดอยู่ในนั้นด้วย"
 cover: "/images/frozen-garden.png"

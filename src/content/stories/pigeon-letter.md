@@ -4,8 +4,8 @@ category: "สอนใจ"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "5-12 ปี"
-readingTime: 12
+ageRange: "4-9 ปี"
+readingTime: 7
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว มีนกพิราบชื่อเงินที่ส่งจดหมายมาสามสิบปีโดยไม่เคยพลาด วันที่พายุใหญ่มา เด็กชายถามว่าทำไมเงินยังบินต่อ และคำตอบสอนเขาถึงความหมายของคำว่าสัญญา"
 cover: "/images/pigeon-letter.png"

@@ -4,8 +4,8 @@ category: "ก่อนนอน"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "3-8 ปี"
-readingTime: 10
+ageRange: "3-7 ปี"
+readingTime: 8
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว มีผ้าห่มผืนหนึ่งที่ถักทอจากด้ายแห่งความฝัน ใครที่ห่มจะได้เดินทางไปในโลกที่อบอุ่นที่สุดตลอดคืน"
 cover: "/images/warm-blanket.png"

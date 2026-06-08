@@ -4,8 +4,8 @@ category: "ก่อนนอน"
 source: "Nithaan Original"
 author: "Nithaan."
 adapter: "Nithaan."
-ageRange: "3-8 ปี"
-readingTime: 11
+ageRange: "3-7 ปี"
+readingTime: 7
 publishedAt: 2026-06-14
 excerpt: "กาลครั้งหนึ่งนานมาแล้ว มีทุ่งหญ้าพิเศษที่ดาวตกลงมาจอดทุกคืน และเด็กหญิงที่พบทุ่งนั้นได้คุยกับดาวที่เหนื่อยล้าจากการเดินทางไกลในจักรวาล"
 cover: "/images/shooting-stars-meadow.png"
