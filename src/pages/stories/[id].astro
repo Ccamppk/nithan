@@ -13,7 +13,11 @@ export async function getStaticPaths() {
 const { story } = Astro.props;
 const { Content } = await render(story);
 
-const siteUrl = 'https://nithaan.vercel.app';
+// Does this story have an English translation? (controls hreflang)
+const enStories = await getCollection('storiesEn');
+const hasEn = enStories.some(s => s.id === story.id);
+
+const siteUrl = Astro.site?.href.replace(/\/$/, '') ?? 'https://nithaan.com';
 const storyUrl = `${siteUrl}/stories/${story.id}`;
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -43,7 +47,7 @@ const iconMap: Record<string, string> = {
   'ก่อนนอน':  'bedtime',
 };
 ---
-<Base title={story.data.title} description={story.data.excerpt} image={story.data.cover}>
+<Base title={story.data.title} description={story.data.excerpt} image={story.data.cover} hasAlt={hasEn}>
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <main class="reader-wrap">
 
@@ -81,11 +85,11 @@ const iconMap: Record<string, string> = {
 
     <!-- โฆษณาก่อนเนื้อเรื่อง -->
     <ins class="adsbygoogle ad-story"
-      style="display:block"
+      style="display:block; text-align:center;"
+      data-ad-layout="in-article"
+      data-ad-format="fluid"
       data-ad-client="ca-pub-3654679826587904"
-      data-ad-slot="auto"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
+      data-ad-slot="2659257817"></ins>
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
     <article class="story-content" id="storyContent">
@@ -94,11 +98,11 @@ const iconMap: Record<string, string> = {
 
     <!-- โฆษณาหลังจบเนื้อเรื่อง -->
     <ins class="adsbygoogle ad-story"
-      style="display:block"
+      style="display:block; text-align:center;"
+      data-ad-layout="in-article"
+      data-ad-format="fluid"
       data-ad-client="ca-pub-3654679826587904"
-      data-ad-slot="auto"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
+      data-ad-slot="2659257817"></ins>
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
     {(story.data.author || story.data.adapter) && (
