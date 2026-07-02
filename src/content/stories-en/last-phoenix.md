@@ -8,7 +8,7 @@ ageRange: "5-12 years"
 readingTime: 11
 publishedAt: 2026-06-10
 excerpt: "Saeng finds a small injured bird in the forest with orange-red feathers unlike any bird he's seen before. As he nurses it back to health, he begins to suspect it might be the last phoenix in the world."
-cover: "/images/last-phoenix.png"
+cover: "/images/last-phoenix.webp"
 ---
 
 Saeng walked through the forest behind school every afternoon. Same path, same trees — but there was always something new to find.

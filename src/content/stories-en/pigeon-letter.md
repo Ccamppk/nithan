@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, a pigeon named Silver delivered letters for thirty years without ever missing a single one. On the day a great storm came, a boy asked why Silver still flew — and the answer taught him what a promise truly means."
-cover: "/images/pigeon-letter.png"
+cover: "/images/pigeon-letter.webp"
 ---
 
 Once upon a time, there was a silver pigeon named Silver who had delivered letters for the village for thirty years.

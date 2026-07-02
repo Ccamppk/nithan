@@ -8,7 +8,7 @@ ageRange: "4-10 years"
 readingTime: 8
 publishedAt: 2026-06-07
 excerpt: "Xiaolan wants to send a lantern to her grandmother who passed away, but the lantern she made breaks before the night arrives. Will love help her find a way through the disappointment?"
-cover: "/images/2026-06-07-international.png"
+cover: "/images/2026-06-07-international.webp"
 ---
 
 In a small town along the Yangtze River in China, every January brought the most eagerly awaited celebration of the year - the Lantern Festival, known to the villagers as "Yuanxiao."

@@ -8,7 +8,7 @@ ageRange: "5-12 years"
 readingTime: 14
 publishedAt: 2026-06-09
 excerpt: "When the stars begin going out one by one, a small girl named On must enter the forbidden forest to find the stars that have fallen asleep - and wake them with her voice."
-cover: "/images/sleeping-stars-forest.png"
+cover: "/images/sleeping-stars-forest.webp"
 ---
 
 One night On fell asleep and dreamed that the sky was completely empty. No stars, not a single one - only vast, terrifying darkness stretching in every direction.

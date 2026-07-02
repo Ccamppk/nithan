@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-13
 excerpt: "Once upon a time, a girl named Sai discovered that the lake behind her house hid an ancient city beneath its water — and its people had been waiting for someone brave enough to dive down and listen to their story."
-cover: "/images/lake-hidden-city.png"
+cover: "/images/lake-hidden-city.webp"
 ---
 
 Once upon a time, in a small village beside an emerald-green lake, there lived a girl named Sai who loved gazing into the water.

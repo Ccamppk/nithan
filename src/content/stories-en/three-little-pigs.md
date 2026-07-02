@@ -8,7 +8,7 @@ ageRange: "4-10 years"
 readingTime: 6
 publishedAt: 2026-06-03
 excerpt: "Three pig siblings set out to build their own homes. But a hungry wolf is waiting for them..."
-cover: "/images/three-little-pigs.png"
+cover: "/images/three-little-pigs.webp"
 ---
 
 Once upon a time, a mother pig sent her three little pigs out into the world to seek their fortunes.

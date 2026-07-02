@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 4
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, a Maori boy in New Zealand was given the task of telling his tribe's story in front of everyone at a great gathering. But he was so frightened he forgot it all, and had to find the story within his own heart."
-cover: "/images/maori-storyteller.png"
+cover: "/images/maori-storyteller.webp"
 ---
 
 Once upon a time, on the lush green island of New Zealand, a Maori boy named Tane grew up hearing the stories of his ancestors that his grandfather told every night.

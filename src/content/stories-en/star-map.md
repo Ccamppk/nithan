@@ -8,7 +8,7 @@ ageRange: "6-12 years"
 readingTime: 12
 publishedAt: 2026-06-10
 excerpt: "Fon and Kong get lost in the forest during a school camping trip. No signal, no compass — just what they remember from class about stars, shadows, and keeping calm."
-cover: "/images/star-map.png"
+cover: "/images/star-map.webp"
 ---
 
 The school camping trip was two days and one night at the pine forest camp. Fon and Kong were assigned to collect firewood in the afternoon — which sounded simple enough, but wasn't.

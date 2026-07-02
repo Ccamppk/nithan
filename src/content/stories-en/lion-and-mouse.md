@@ -8,7 +8,7 @@ ageRange: "3-8 years"
 readingTime: 3
 publishedAt: 2026-06-02
 excerpt: "A mighty lion catches a tiny mouse, but chooses to let it go. One day, the little mouse gets a chance to repay the kindness..."
-cover: "/images/lion-and-mouse.png"
+cover: "/images/lion-and-mouse.webp"
 ---
 
 Once upon a time, a mighty lion - king of the forest - lay sleeping peacefully beneath a tall tree.

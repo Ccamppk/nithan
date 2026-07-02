@@ -8,7 +8,7 @@ ageRange: "3-7 years"
 readingTime: 7
 publishedAt: 2026-06-13
 excerpt: "Once upon a time, a tiny fairy sprinkled golden dust to help children sleep soundly. One night she was so exhausted she almost forgot one house — and the child waiting for a good dream taught her the most important thing of all."
-cover: "/images/dream-fairy.png"
+cover: "/images/dream-fairy.webp"
 ---
 
 Once upon a time, in the kingdom of dreams hidden above the clouds, there lived a tiny fairy named Thong, whose job was to sprinkle golden dust over children every night so they would sleep soundly and dream sweet dreams.

@@ -8,7 +8,7 @@ ageRange: "5-10 ปี"
 readingTime: 9
 publishedAt: 2026-06-11
 excerpt: "เมื่อนานาไปเที่ยวเวียดนามกับครอบครัว เธอได้พบกับเทศกาลโคมไฟที่เมืองฮอยอัน และได้รู้จักกับเพื่อนใหม่ที่สอนเธอว่าภาษาไม่ใช่อุปสรรคของมิตรภาพ"
-cover: "/images/vietnam-lantern-festival.png"
+cover: "/images/vietnam-lantern-festival.webp"
 ---
 
 นานาไม่เคยออกนอกประเทศไทยมาก่อน

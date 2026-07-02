@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, there was a kingdom built entirely from stars, each one a child's dream. When a girl named Little Star finally arrived, she discovered whose dream shone the brightest of all."
-cover: "/images/star-kingdom.png"
+cover: "/images/star-kingdom.webp"
 ---
 
 Once upon a time, high above the highest sky, there existed a kingdom made entirely of stars.

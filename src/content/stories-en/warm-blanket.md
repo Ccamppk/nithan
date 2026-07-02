@@ -8,7 +8,7 @@ ageRange: "3-7 years"
 readingTime: 7
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, there was a blanket woven from threads of dreams. Whoever wrapped themselves in it would journey to the warmest world imaginable, all night long."
-cover: "/images/warm-blanket.png"
+cover: "/images/warm-blanket.webp"
 ---
 
 Once upon a time, there was a blanket unlike any other.

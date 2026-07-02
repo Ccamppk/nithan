@@ -8,7 +8,7 @@ ageRange: "3-7 years"
 readingTime: 8
 publishedAt: 2026-06-13
 excerpt: "Once upon a time, every night when children closed their eyes, the River of Dreams would flow beneath their beds, and a paper boat would carry them to the place they wanted most."
-cover: "/images/paper-boat-dream.png"
+cover: "/images/paper-boat-dream.webp"
 ---
 
 Once upon a time, there was a secret that many grown-ups had long forgotten — that every night, once all the stars had risen, the River of Dreams flowed silently beneath every child's bed.

@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 6
 publishedAt: 2026-06-13
 excerpt: "Once upon a time, a girl named Hima traveled to Finland and met the real Santa Claus. But what Santa told her wasn't anything like what she expected."
-cover: "/images/finland-santa.png"
+cover: "/images/finland-santa.webp"
 ---
 
 Once upon a time, a girl named Hima had heard stories about Santa Claus since she was very small, but never truly believed he was real.

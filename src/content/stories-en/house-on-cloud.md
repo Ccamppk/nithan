@@ -8,7 +8,7 @@ ageRange: "4-10 years"
 readingTime: 8
 publishedAt: 2026-06-08
 excerpt: "Ton discovers a mysterious staircase in his backyard that leads to a small house perched on a cloud - where a lonely cloud-keeper has been waiting for a friend."
-cover: "/images/house-on-cloud.png"
+cover: "/images/house-on-cloud.webp"
 ---
 
 On a free morning, Ton went out to play in the backyard as usual. But today was different - he noticed something he had never seen before.

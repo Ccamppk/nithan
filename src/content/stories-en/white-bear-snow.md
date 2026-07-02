@@ -8,7 +8,7 @@ ageRange: "3-7 years"
 readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, a little white bear who had never seen snow woke up on the first morning of winter to find the whole world had turned white overnight."
-cover: "/images/white-bear-snow.png"
+cover: "/images/white-bear-snow.webp"
 ---
 
 Once upon a time, in a cold forest to the north, there lived a little white bear named Little Snow, born at the end of autumn.

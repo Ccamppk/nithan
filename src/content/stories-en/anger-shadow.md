@@ -8,7 +8,7 @@ ageRange: "5-12 years"
 readingTime: 10
 publishedAt: 2026-06-10
 excerpt: "When Lek gets angry, her shadow grows dark and her words cut deep. But after hurting her best friend, she discovers that some wounds take longer to heal than others."
-cover: "/images/anger-shadow.png"
+cover: "/images/anger-shadow.webp"
 ---
 
 Lek's shadow was different from everyone else's.

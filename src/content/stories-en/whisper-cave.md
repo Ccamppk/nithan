@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-13
 excerpt: "Once upon a time, there was a cave in the mountains that whispered secrets to anyone who entered. But listen too long, and you might never find your way out. Two children ventured in together, and only their friendship could bring them home."
-cover: "/images/whisper-cave.png"
+cover: "/images/whisper-cave.webp"
 ---
 
 Once upon a time, high on a mountain to the north, there was a cave the villagers called the Cave of Whispers.

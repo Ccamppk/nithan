@@ -8,7 +8,7 @@ ageRange: "3-7 years"
 readingTime: 5
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, a boy named Plan found a map that drew itself, tracing every path he walked. But when he walked down the wrong path, the map drew that too — and he had to learn that life's map is made from our own choices."
-cover: "/images/self-drawing-map.png"
+cover: "/images/self-drawing-map.webp"
 ---
 
 Once upon a time, a boy named Plan found a rolled-up blank sheet of paper under a rock by the river.

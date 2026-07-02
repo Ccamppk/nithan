@@ -8,7 +8,7 @@ ageRange: "4-10 years"
 readingTime: 7
 publishedAt: 2026-06-08
 excerpt: "When Haruko, a new student from Japan, arrives at school, no one can talk to her - until Jiw discovers that the language of the heart needs no translation."
-cover: "/images/friend-from-japan.png"
+cover: "/images/friend-from-japan.webp"
 ---
 
 On a Monday at the start of the month, the classroom door opened and the teacher led in a small girl with neat black hair.

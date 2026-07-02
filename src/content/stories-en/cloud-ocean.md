@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 5
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, high above the clouds, there was an ocean where whales swam like birds — and a boy who lay on his rooftop with his eyes closed could hear its waves and knew exactly where it was."
-cover: "/images/cloud-ocean.png"
+cover: "/images/cloud-ocean.webp"
 ---
 
 Once upon a time, far above even the thickest layer of clouds, there was an ocean that no one down below had ever known existed.

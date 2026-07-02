@@ -13,6 +13,8 @@ interface Props {
   isNew?: boolean;
   newLabel?: string;
   readingTimeLabel?: string;
+  /** Set for above-the-fold cards (e.g. first row) to skip lazy-loading so it doesn't delay LCP. */
+  priority?: boolean;
 }
 
 const {
@@ -26,12 +28,22 @@ const {
   isNew = false,
   newLabel = 'ใหม่',
   readingTimeLabel = 'นาที',
+  priority = false,
 } = Astro.props;
 ---
 <a href={href} class="story-card">
   <div class="story-cover">
     {cover
-      ? <img src={cover} alt={title} class="story-cover-img" />
+      ? <img
+          src={cover}
+          alt={title}
+          class="story-cover-img"
+          width="1536"
+          height="1024"
+          decoding="async"
+          loading={priority ? 'eager' : 'lazy'}
+          fetchpriority={priority ? 'high' : undefined}
+        />
       : <span class="material-symbols-outlined">{iconMap[category] ?? 'auto_stories'}</span>
     }
     {isNew && <span class="new-badge">{newLabel}</span>}

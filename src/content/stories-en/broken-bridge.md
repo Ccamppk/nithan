@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 7
 publishedAt: 2026-06-12
 excerpt: "Once upon a time, a girl named Fon had to cross a river with no bridge to deliver medicine to a village on the other side. She had only what was in her bag — and her own quick thinking."
-cover: "/images/broken-bridge.png"
+cover: "/images/broken-bridge.webp"
 ---
 
 Once upon a time, a girl named Fon was given a very important task: carry medicine from the village doctor across the river to another village where sickness was spreading.

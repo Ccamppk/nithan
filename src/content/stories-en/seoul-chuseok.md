@@ -8,7 +8,7 @@ ageRange: "5-12 years"
 readingTime: 10
 publishedAt: 2026-06-10
 excerpt: "Minjun doesn't want to leave Seoul for the Chuseok holiday — but when his grandmother teaches him to make songpyeon and tells him what the harvest festival really means, he finds something more valuable than any game day."
-cover: "/images/seoul-chuseok.png"
+cover: "/images/seoul-chuseok.webp"
 ---
 
 Minjun was nine years old, and he wanted to stay home in Seoul for Chuseok. He had a new game he hadn't played yet. His friends had planned a trip to the movies.

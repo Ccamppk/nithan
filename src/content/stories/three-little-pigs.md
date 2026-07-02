@@ -8,7 +8,7 @@ ageRange: "4-9 ปี"
 readingTime: 6
 publishedAt: 2026-06-03
 excerpt: "ลูกหมูสามพี่น้องออกไปสร้างบ้านของตัวเอง แต่หมาป่าตัวร้ายกำลังรออยู่..."
-cover: "/images/three-little-pigs.png"
+cover: "/images/three-little-pigs.webp"
 ---
 
 กาลครั้งหนึ่ง แม่หมูส่งลูกหมูสามตัวออกไปสร้างชีวิตของตัวเอง

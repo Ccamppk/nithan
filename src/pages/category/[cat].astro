@@ -92,7 +92,7 @@ const seo = catSeo[cat] ?? {
       </div>
     ) : (
       <div class="stories-grid">
-        {stories.map(story => (
+        {stories.map((story, i) => (
           <StoryCard
             href={`/stories/${story.id}`}
             title={story.data.title}
@@ -103,6 +103,7 @@ const seo = catSeo[cat] ?? {
             ageRange={story.data.ageRange}
             publishedAt={story.data.publishedAt}
             isNew={story.data.publishedAt.valueOf() === maxDate}
+            priority={i < 3}
           />
         ))}
       </div>

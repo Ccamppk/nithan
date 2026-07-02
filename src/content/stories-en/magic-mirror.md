@@ -8,7 +8,7 @@ ageRange: "4-10 years"
 readingTime: 7
 publishedAt: 2026-06-08
 excerpt: "Maya always finds something to criticize about her friends - until a magic mirror shows her exactly what others see when they look at her."
-cover: "/images/magic-mirror.png"
+cover: "/images/magic-mirror.webp"
 ---
 
 Maya was a girl who always had something critical to say. She said Nan's hair was messy, Ton's shoes were old, and Aow's bag was a dull color. Her friends heard it and went quiet, but no one ever told Maya how much it hurt.

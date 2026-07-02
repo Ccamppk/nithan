@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, a girl named Kwan was afraid of everything. She found a magic lantern that made her brave — but when the lantern went out, she had to discover where her courage truly came from."
-cover: "/images/courage-lantern.png"
+cover: "/images/courage-lantern.webp"
 ---
 
 Once upon a time, there was a girl named Kwan who was afraid of everything — afraid of the dark, afraid of dogs, afraid of speaking in front of class, even afraid of the sound of falling rain.

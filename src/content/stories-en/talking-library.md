@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 8
 publishedAt: 2026-06-11
 excerpt: "Peera discovers that the books in an old, forgotten library can talk. Each one has its own story to tell — and the oldest book of all holds a secret he never expected."
-cover: "/images/talking-library.png"
+cover: "/images/talking-library.webp"
 ---
 
 Peera didn't like reading books.

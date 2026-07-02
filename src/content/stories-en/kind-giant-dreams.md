@@ -8,7 +8,7 @@ ageRange: "3-10 years"
 readingTime: 8
 publishedAt: 2026-06-10
 excerpt: "Every night, a gentle giant named Boro walks softly through the sleeping village, sprinkling stardust through windows and whispering good dreams to every sleeping child."
-cover: "/images/kind-giant-dreams.png"
+cover: "/images/kind-giant-dreams.webp"
 ---
 
 When the moon rose high and the stars blinked across the sky, on a faraway mountain there was a big house.

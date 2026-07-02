@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 5
 publishedAt: 2026-06-15
 excerpt: "Long ago, there was a girl who disliked her own reflection, until she found a magic mirror that showed her the beauty that had been hidden within her all along."
-cover: "/images/magic-mirror-girl.png"
+cover: "/images/magic-mirror-girl.webp"
 ---
 
 Long ago, in a small town at the foot of a mountain, there lived a girl named Manee who hated looking in the mirror.

@@ -8,7 +8,7 @@ ageRange: "5-12 years"
 readingTime: 10
 publishedAt: 2026-06-10
 excerpt: "When Nam's grandfather goes up the mountain and doesn't come back, she sets out alone to find him — facing a narrow cliff, a rushing stream, and thick fog using only what he taught her."
-cover: "/images/little-mountaineer.png"
+cover: "/images/little-mountaineer.webp"
 ---
 
 Nam's grandfather climbed the mountain behind their village every Saturday morning. It had been his routine for thirty years. Nam often waited on the porch for him to return with wildflowers or interesting stones.

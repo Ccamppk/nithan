@@ -8,7 +8,7 @@ ageRange: "5-10 ปี"
 readingTime: 10
 publishedAt: 2026-06-10
 excerpt: "ขุนโกรธง่ายและมักพูดคำเจ็บปวดใส่คนรอบข้าง จนวันหนึ่งพ่อพาไปที่รั้วไม้เก่า และสอนบทเรียนที่เขาจะจำไปตลอดชีวิต"
-cover: "/images/anger-shadow.png"
+cover: "/images/anger-shadow.webp"
 ---
 
 ขุนเป็นเด็กชายที่โกรธง่าย

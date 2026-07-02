@@ -8,7 +8,7 @@ ageRange: "4-8 years"
 readingTime: 8
 publishedAt: 2026-06-11
 excerpt: "Every night, Mom takes Pim to count stars through the window. The first star is a dream, the second is courage, the third is love — and once she's counted them all, her dreams carry her off to a beautiful world."
-cover: "/images/counting-stars.png"
+cover: "/images/counting-stars.webp"
 ---
 
 Pim didn't like the dark.

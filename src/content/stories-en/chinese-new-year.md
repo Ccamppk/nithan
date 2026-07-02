@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 5
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, a girl named Xiaomei couldn't understand why Chinese New Year's Eve had to be so much work — until her grandfather told her the story of the monster Nian."
-cover: "/images/chinese-new-year.png"
+cover: "/images/chinese-new-year.webp"
 ---
 
 Once upon a time, in a small village in China, a girl named Xiaomei sat watching her mother cook all day long.

@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 5
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, an Indian boy named Arjun refused to play Holi because he was afraid of getting his clothes stained. But when an old friend he'd fought with came to make peace by throwing color at him, he understood that Holi was about more than just color."
-cover: "/images/india-holi.png"
+cover: "/images/india-holi.webp"
 ---
 
 Once upon a time, in a small town in India, Holi arrived along with joy and excitement for every child.

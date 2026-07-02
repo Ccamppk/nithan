@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 6
 publishedAt: 2026-06-12
 excerpt: "Once upon a time, a girl named Dao visited Japan during cherry blossom season. She met a Japanese girl named Hana and learned that some kinds of beauty are more beautiful precisely because they don't last."
-cover: "/images/kyoto-sakura.png"
+cover: "/images/kyoto-sakura.webp"
 ---
 
 Once upon a time, a Thai girl named Dao traveled to Japan with her family in the spring.

@@ -8,7 +8,7 @@ ageRange: "5-10 ปี"
 readingTime: 10
 publishedAt: 2026-06-11
 excerpt: "มายชอบบ่นทุกอย่างในชีวิต จนครูให้เธอลองทำกล่องขอบคุณ หนึ่งสัปดาห์ต่อมา โลกของเธอเปลี่ยนไปโดยที่ไม่มีอะไรเปลี่ยนเลย"
-cover: "/images/gratitude-box.png"
+cover: "/images/gratitude-box.webp"
 ---
 
 มายเป็นเด็กหญิงที่ชอบบ่น

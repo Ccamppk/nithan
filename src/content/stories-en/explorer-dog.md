@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 8
 publishedAt: 2026-06-11
 excerpt: "Dang is a little dog who dreams of exploring the world. One day he sneaks out of the house alone, and discovers the world is bigger than he ever imagined — both beautiful and frightening all at once."
-cover: "/images/explorer-dog.png"
+cover: "/images/explorer-dog.webp"
 ---
 
 Dang was a mixed-breed dog, white with black spots, just about the size of a child's lap.

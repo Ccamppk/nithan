@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 8
 publishedAt: 2026-06-12
 excerpt: "Once upon a time, Prince Athit never once said thank you to anyone. Then one day, everyone in the palace disappeared, and he had to learn just how much those two small words truly mean."
-cover: "/images/prince-no-thanks.png"
+cover: "/images/prince-no-thanks.webp"
 ---
 
 Once upon a time, in a wealthy and magnificent kingdom, there lived a young prince named Athit who had everything his heart could ever want.

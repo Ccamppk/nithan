@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 7
 publishedAt: 2026-06-13
 excerpt: "Once upon a time, in a school of magic, there was a single book that no one was allowed to open. A boy named Jit wanted to know why — and what he found inside changed his understanding forever."
-cover: "/images/wizard-forbidden-book.png"
+cover: "/images/wizard-forbidden-book.webp"
 ---
 
 Once upon a time, in a school of magic atop a high stone mountain, there was a great library filled with thousands of books.

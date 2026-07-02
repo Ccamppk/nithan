@@ -8,16 +8,22 @@ interface Props {
   image?: string;
   activeCat?: string;
   lang?: Lang;
+  /** Whether a counterpart page exists in the other language.
+   *  Set to false on pages with no translation so we don't emit
+   *  an hreflang pointing at a 404 (Google penalises that). */
+  hasAlt?: boolean;
 }
-const { title, description, image, activeCat, lang = 'th' } = Astro.props;
+const { title, description, image, activeCat, lang = 'th', hasAlt = true } = Astro.props;
 const t = ui[lang];
 const isEn = lang === 'en';
 
-const siteUrl = 'https://nithaan.vercel.app';
+// Single source of truth: driven by `site` in astro.config.mjs.
+// Switch the domain there once and canonical/OG/hreflang all follow.
+const siteUrl = Astro.site?.href.replace(/\/$/, '') ?? 'https://nithaan.com';
 const canonicalUrl = new URL(Astro.url.pathname, siteUrl).href;
 const ogImage = image
   ? new URL(image, siteUrl).href
-  : `${siteUrl}/logo-white.png`;
+  : `${siteUrl}/logo-white.webp`;
 const fullTitle = `${title} - Nithaan`;
 const metaDescription = description ?? t.siteTagline;
 const altLangUrl = isEn
@@ -40,10 +46,12 @@ const langSwitchUrl = isEn ? Astro.url.pathname.replace(/^\/en/, '') || '/' : '/
     <meta name="google-site-verification" content="XzulYr2CVTCUiQsvWC0jjw-8zpsbeVAaj6yjnzP6-aQ" />
     <link rel="canonical" href={canonicalUrl} />
 
-    <!-- hreflang for TH/EN -->
+    <!-- hreflang for TH/EN (only emit the opposite language when it exists) -->
     <link rel="alternate" hreflang={isEn ? 'en' : 'th'} href={canonicalUrl} />
-    <link rel="alternate" hreflang={isEn ? 'th' : 'en'} href={altLangUrl} />
-    <link rel="alternate" hreflang="x-default" href={isEn ? altLangUrl : canonicalUrl} />
+    {hasAlt && (
+      <link rel="alternate" hreflang={isEn ? 'th' : 'en'} href={altLangUrl} />
+    )}
+    <link rel="alternate" hreflang="x-default" href={isEn && hasAlt ? altLangUrl : canonicalUrl} />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -72,14 +80,25 @@ const langSwitchUrl = isEn ? Astro.url.pathname.replace(/^\/en/, '') || '/' : '/
     <link rel="apple-touch-icon" href="/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" />
+
+    <!-- Fonts load non-render-blocking: fetched in parallel, swapped in once ready. -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" media="print" onload="this.media='all'" />
+
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" media="print" onload="this.media='all'" />
+
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" />
+    </noscript>
   </head>
   <body>
     <nav class="navbar">
       <div class="container navbar-inner">
         <a href={homeUrl} class="logo">
-          <img src="/logo-white.png" alt="Nithaan" class="logo-img logo-img--white" />
-          <img src="/logo-dark.png" alt="Nithaan" class="logo-img logo-img--dark" />
+          <img src="/logo-white.webp" alt="Nithaan" class="logo-img logo-img--white" />
+          <img src="/logo-dark.webp" alt="Nithaan" class="logo-img logo-img--dark" />
         </a>
         <ul class="nav-links">
           {cats.map(cat => (
@@ -102,8 +121,8 @@ const langSwitchUrl = isEn ? Astro.url.pathname.replace(/^\/en/, '') || '/' : '/
     <footer class="footer">
       <div class="container">
         <p style="display:flex; align-items:center; justify-content:center; gap:0.8rem; margin:0; padding:0; line-height:1;">
-          <img src="/logo-white.png" alt="Nithaan" class="logo-img logo-img--white" style="height:1.2rem;" />
-          <img src="/logo-dark.png" alt="Nithaan" class="logo-img logo-img--dark" style="height:1.2rem;" />
+          <img src="/logo-white.webp" alt="Nithaan" class="logo-img logo-img--white" style="height:1.2rem;" />
+          <img src="/logo-dark.webp" alt="Nithaan" class="logo-img logo-img--dark" style="height:1.2rem;" />
         </p>
         <div class="footer-links">
           <a href={isEn ? '/en/privacy' : '/privacy'}>{t.privacy}</a>

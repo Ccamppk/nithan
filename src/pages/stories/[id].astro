@@ -30,7 +30,7 @@ const jsonLd = {
   publisher: {
     '@type': 'Organization',
     name: 'Nithaan',
-    logo: { '@type': 'ImageObject', url: `${siteUrl}/logo-white.png` },
+    logo: { '@type': 'ImageObject', url: `${siteUrl}/logo-white.webp` },
   },
   mainEntityOfPage: { '@type': 'WebPage', '@id': storyUrl },
   inLanguage: 'th',
@@ -80,7 +80,7 @@ const iconMap: Record<string, string> = {
     </div>
 
     {story.data.cover && (
-      <img src={story.data.cover} alt={story.data.title} class="reader-cover" />
+      <img src={story.data.cover} alt={story.data.title} class="reader-cover" width="1536" height="1024" fetchpriority="high" decoding="async" />
     )}
 
     <!-- โฆษณาก่อนเนื้อเรื่อง -->

@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-13
 excerpt: "Once upon a time, a young woman named Nuan received a magic loom that could only weave the truth. She wanted to weave something beautiful, but the cloth kept showing her scenes of her life she didn't want to see."
-cover: "/images/patient-weaver.png"
+cover: "/images/patient-weaver.webp"
 ---
 
 Once upon a time, in a village by the mountains, there lived a young woman named Nuan who dreamed of becoming the finest weaver in the land.

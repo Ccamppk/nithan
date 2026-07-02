@@ -8,7 +8,7 @@ ageRange: "3-8 years"
 readingTime: 6
 publishedAt: 2026-06-08
 excerpt: "Every night, a gentle river flows to carry children on a soft journey through a dreamland of stars, cloud creatures, and a sleepy elephant made of sky."
-cover: "/images/sleepy-river.png"
+cover: "/images/sleepy-river.webp"
 ---
 
 After the sun slips below the horizon, when the lights in every house go out one by one, a river begins to flow.

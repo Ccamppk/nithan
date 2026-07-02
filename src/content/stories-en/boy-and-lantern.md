@@ -8,7 +8,7 @@ ageRange: "5-12 years"
 readingTime: 13
 publishedAt: 2026-06-09
 excerpt: "Nuanjai finds a magic lantern in the forest that grants three wishes, but the greatest lesson isn't found in what he asks for - it's found in what he chooses to give."
-cover: "/images/boy-and-lantern.png"
+cover: "/images/boy-and-lantern.webp"
 ---
 
 In a small village at the foot of a mountain, a boy named Nuanjai lived with his mother in an old wooden house. The roof leaked when it rained, and in the afternoon sun you could see light coming through gaps in the walls.

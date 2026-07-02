@@ -8,7 +8,7 @@ ageRange: "4-8 years"
 readingTime: 9
 publishedAt: 2026-06-11
 excerpt: "Every night before bed, Grandfather would have Kaew count the hands of an old clock, one by one. By the time she finished counting, she would drift off to sleep without noticing — and in her dreams, she would always find Grandfather waiting there."
-cover: "/images/sleeping-clock.png"
+cover: "/images/sleeping-clock.webp"
 ---
 
 Kaew didn't like bedtime.

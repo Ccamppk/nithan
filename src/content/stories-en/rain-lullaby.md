@@ -8,7 +8,7 @@ ageRange: "3-7 years"
 readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, the rain that fell every night was a lullaby from the sky, sung to every child in the world so they could all fall asleep together, dreaming sweetly."
-cover: "/images/rain-lullaby.png"
+cover: "/images/rain-lullaby.webp"
 ---
 
 Once upon a time, there was a boy named Fon who couldn't sleep because it was raining.

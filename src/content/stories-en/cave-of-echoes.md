@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 8
 publishedAt: 2026-06-08
 excerpt: "When Lin and Plu venture into an old cave, their torch breaks and the way out disappears. They must use their wits and trust each other to find their way back."
-cover: "/images/cave-of-echoes.png"
+cover: "/images/cave-of-echoes.webp"
 ---
 
 Behind the mountain village there was an ancient cave. The elders said it had been used for storage since their grandparents' time. Lin and Plu had always wanted to go inside and explore.

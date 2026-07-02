@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, a boy named Fan could remember everyone's dreams the moment he woke up. And in the dreams of those around him, he found the things they never dared say while awake."
-cover: "/images/dream-keeper.png"
+cover: "/images/dream-keeper.webp"
 ---
 
 Once upon a time, there was a boy named Fan with a very special power. Every morning when he woke, he could remember the dreams of everyone in his house, as clearly as if he had watched someone else's movie.

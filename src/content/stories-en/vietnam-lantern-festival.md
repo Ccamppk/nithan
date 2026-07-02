@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 7
 publishedAt: 2026-06-11
 excerpt: "When Nana traveled to Vietnam with her family, she experienced the lantern festival in the town of Hoi An and made a new friend who taught her that language is never a barrier to friendship."
-cover: "/images/vietnam-lantern-festival.png"
+cover: "/images/vietnam-lantern-festival.webp"
 ---
 
 Nana had never been outside Thailand before.

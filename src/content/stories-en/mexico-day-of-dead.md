@@ -8,7 +8,7 @@ ageRange: "5-12 years"
 readingTime: 11
 publishedAt: 2026-06-10
 excerpt: "Isabel prepares an ofrenda for her beloved Abuelito during Mexico's Día de los Muertos and discovers that love doesn't end — it only changes shape."
-cover: "/images/mexico-day-of-dead.png"
+cover: "/images/mexico-day-of-dead.webp"
 ---
 
 Every November first, the smell of marigolds and the sound of soft music filled Isabel's home in Oaxaca, Mexico.

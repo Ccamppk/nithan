@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-12
 excerpt: "Once upon a time, a boy named Pon had to climb the Mountain of Wind to gather a magic flower to heal his sick grandmother. But the mountain didn't let anyone pass easily."
-cover: "/images/wind-mountain.png"
+cover: "/images/wind-mountain.webp"
 ---
 
 Once upon a time, in a village at the foot of a mountain, there lived a boy named Pon who loved his grandmother more than anything else in the world.

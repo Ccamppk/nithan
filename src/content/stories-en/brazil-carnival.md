@@ -8,7 +8,7 @@ ageRange: "6-12 years"
 readingTime: 9
 publishedAt: 2026-06-11
 excerpt: "Kong moves to Brazil with his father for work. He doesn't know the language and has no friends — until Carnival arrives, and a boy named Paulo teaches him that dancing is a language everyone shares."
-cover: "/images/brazil-carnival.png"
+cover: "/images/brazil-carnival.webp"
 ---
 
 Kong was nine years old when his father told him they had to move to Brazil for two years.

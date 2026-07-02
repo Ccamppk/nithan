@@ -8,7 +8,7 @@ ageRange: "5-12 years"
 readingTime: 11
 publishedAt: 2026-06-09
 excerpt: "Aryan wants to make the most beautiful Diwali lamp on the street - until he meets a neighbor with no lamp to light, and discovers what the Festival of Lights truly means."
-cover: "/images/aryan-diwali.png"
+cover: "/images/aryan-diwali.webp"
 ---
 
 In October, the city of Jaipur in India was alive with the smell of sweets and bursts of color. Every shop was filled with Diwali lamps, marigold garlands, and bags of colored powder for making rangoli patterns on doorsteps.

@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, there was a village where no one ever said the word sorry. Everyone believed they were always right — until the village slowly began to fall apart."
-cover: "/images/village-no-sorry.png"
+cover: "/images/village-no-sorry.webp"
 ---
 
 Once upon a time, there was a small village called Never-Wrong Village.

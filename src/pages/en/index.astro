@@ -17,8 +17,8 @@ const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
 <Base title="Home" description={t.siteTagline} lang="en">
   <section class="hero">
     <h1>
-      <img src="/logo-white.png" alt="Nithaan" class="hero-logo logo-img--white" />
-      <img src="/logo-dark.png" alt="Nithaan" class="hero-logo logo-img--dark" />
+      <img src="/logo-white.webp" alt="Nithaan" class="hero-logo logo-img--white" />
+      <img src="/logo-dark.webp" alt="Nithaan" class="hero-logo logo-img--dark" />
     </h1>
     <p class="hero-tagline">{t.siteTagline}</p>
   </section>
@@ -26,7 +26,7 @@ const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
   <main class="container">
     <h2 class="section-title">{t.allStories}</h2>
     <div class="stories-grid">
-      {preview.map(story => (
+      {preview.map((story, i) => (
         <StoryCard
           href={`/en/stories/${story.id}`}
           title={story.data.title}
@@ -37,6 +37,7 @@ const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
           ageRange={story.data.ageRange}
           publishedAt={story.data.publishedAt}
           isNew={story.data.publishedAt.valueOf() === maxDate}
+          priority={i < 3}
           newLabel="New"
           readingTimeLabel={t.readingTime}
         />

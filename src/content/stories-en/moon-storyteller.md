@@ -8,7 +8,7 @@ ageRange: "4-10 years"
 readingTime: 10
 publishedAt: 2026-06-09
 excerpt: "Din doesn't want to go to sleep and can't understand why he has to. Then the moon begins to tell him stories of children all over the world who are already dreaming right now."
-cover: "/images/moon-storyteller.png"
+cover: "/images/moon-storyteller.webp"
 ---
 
 "I don't want to sleep."

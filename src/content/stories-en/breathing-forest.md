@@ -8,7 +8,7 @@ ageRange: "3-10 years"
 readingTime: 9
 publishedAt: 2026-06-10
 excerpt: "Every night when Noon closes her eyes, she can hear the forest breathing — and if she listens long enough, she walks into a world where trees sing, rivers hum lullabies, and a star comes down to sit beside her."
-cover: "/images/breathing-forest.png"
+cover: "/images/breathing-forest.webp"
 ---
 
 Noon didn't like bedtime.

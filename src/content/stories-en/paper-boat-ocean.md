@@ -8,7 +8,7 @@ ageRange: "5-12 years"
 readingTime: 12
 publishedAt: 2026-06-09
 excerpt: "Pai and his little sister Pla fold paper boats and set them on the stream - but when the boats grow big enough to ride, the greatest adventure of their lives begins."
-cover: "/images/paper-boat-ocean.png"
+cover: "/images/paper-boat-ocean.webp"
 ---
 
 Ten-year-old Pai and his seven-year-old sister Pla lived in a house beside a stream. Every weekend the two of them would sit at the water's edge folding paper boats. Today was no different - they sat folding side by side, racing to see whose boat came out better.

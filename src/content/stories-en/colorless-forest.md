@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 8
 publishedAt: 2026-06-12
 excerpt: "Once upon a time, a magical forest lost every one of its colors, turning entirely black and white. Only a girl named Sii knew how to bring the colors back — but it would cost her the thing she loved most."
-cover: "/images/colorless-forest.png"
+cover: "/images/colorless-forest.webp"
 ---
 
 Once upon a time, there was a magical forest bursting with color — trees of deep purple, flowers of gold, a river of clear blue, and a sky that changed color every hour.

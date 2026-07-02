@@ -16,7 +16,11 @@ export async function getStaticPaths() {
 const { story } = Astro.props;
 const { Content } = await render(story);
 
-const siteUrl = 'https://nithaan.vercel.app';
+// Does this story have a Thai original? (controls hreflang)
+const thStories = await getCollection('stories');
+const hasTh = thStories.some(s => s.id === story.id);
+
+const siteUrl = Astro.site?.href.replace(/\/$/, '') ?? 'https://nithaan.com';
 const storyUrl = `${siteUrl}/en/stories/${story.id}`;
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -29,7 +33,7 @@ const jsonLd = {
   publisher: {
     '@type': 'Organization',
     name: 'Nithaan',
-    logo: { '@type': 'ImageObject', url: `${siteUrl}/logo-white.png` },
+    logo: { '@type': 'ImageObject', url: `${siteUrl}/logo-white.webp` },
   },
   mainEntityOfPage: { '@type': 'WebPage', '@id': storyUrl },
   inLanguage: 'en',
@@ -38,7 +42,7 @@ const jsonLd = {
   timeRequired: `PT${story.data.readingTime}M`,
 };
 ---
-<Base title={story.data.title} description={story.data.excerpt} image={story.data.cover} lang="en">
+<Base title={story.data.title} description={story.data.excerpt} image={story.data.cover} lang="en" hasAlt={hasTh}>
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <main class="reader-wrap">
     <header class="reader-header">
@@ -70,7 +74,7 @@ const jsonLd = {
     </div>
 
     {story.data.cover && (
-      <img src={story.data.cover} alt={story.data.title} class="reader-cover" />
+      <img src={story.data.cover} alt={story.data.title} class="reader-cover" width="1536" height="1024" fetchpriority="high" decoding="async" />
     )}
 
     <article class="story-content" id="storyContent">

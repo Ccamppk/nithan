@@ -8,7 +8,7 @@ ageRange: "4-8 years"
 readingTime: 7
 publishedAt: 2026-06-12
 excerpt: "Once upon a time, a girl named Om talked to the moon every night. One night, the moon told her a secret about what it does during the day — and that secret helped Om sleep sweetly every night after."
-cover: "/images/moon-dreamer.png"
+cover: "/images/moon-dreamer.webp"
 ---
 
 Once upon a time, there was a girl named Om who loved looking at the moon every night before bed.

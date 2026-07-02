@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 8
 publishedAt: 2026-06-11
 excerpt: "May complains about everything in life, until her teacher gives her a gratitude box to try. A week later, her whole world had changed — even though nothing had changed at all."
-cover: "/images/gratitude-box.png"
+cover: "/images/gratitude-box.webp"
 ---
 
 May was a girl who loved to complain.

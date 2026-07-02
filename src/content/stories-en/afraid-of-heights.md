@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, a boy named Sung was afraid of heights more than anything else in the world. But when his little sister fell into a rocky pit, he had to choose between giving in to fear or facing it for someone he loved."
-cover: "/images/afraid-of-heights.png"
+cover: "/images/afraid-of-heights.webp"
 ---
 
 Once upon a time, there was a boy named Sung who was afraid of heights more than anything else in the world — even though his name meant "tall."

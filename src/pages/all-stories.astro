@@ -13,7 +13,7 @@ const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
   <main class="container" style="padding-top:2rem; padding-bottom:3rem;">
     <h2 class="section-title">นิทานทั้งหมด</h2>
     <div class="stories-grid">
-      {sorted.map(story => (
+      {sorted.map((story, i) => (
         <StoryCard
           href={`/stories/${story.id}`}
           title={story.data.title}
@@ -24,6 +24,7 @@ const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
           ageRange={story.data.ageRange}
           publishedAt={story.data.publishedAt}
           isNew={story.data.publishedAt.valueOf() === maxDate}
+          priority={i < 3}
         />
       ))}
     </div>

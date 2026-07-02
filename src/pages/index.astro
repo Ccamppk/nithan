@@ -19,8 +19,8 @@ const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
 <Base title="นิทานเด็ก นิทานก่อนนอน นิทานสอนใจ นิทานแฟนตาซี" description="รวมนิทานเด็กภาษาไทยหลากหลายหมวด ทั้งนิทานก่อนนอน นิทานสอนใจ นิทานแฟนตาซี นิทานผจญภัย และนิทานนานาชาติ อ่านฟรีทุกเรื่องบน Nithaan">
   <section class="hero">
     <h1>
-      <img src="/logo-white.png" alt="Nithaan" class="hero-logo logo-img--white" />
-      <img src="/logo-dark.png" alt="Nithaan" class="hero-logo logo-img--dark" />
+      <img src="/logo-white.webp" alt="Nithaan" class="hero-logo logo-img--white" />
+      <img src="/logo-dark.webp" alt="Nithaan" class="hero-logo logo-img--dark" />
     </h1>
     <p class="hero-tagline">{t.siteTagline}</p>
   </section>
@@ -28,7 +28,7 @@ const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
   <main class="container">
     <h2 class="section-title">นิทานทั้งหมด</h2>
     <div class="stories-grid">
-      {preview.map(story => (
+      {preview.map((story, i) => (
         <StoryCard
           href={`/stories/${story.id}`}
           title={story.data.title}
@@ -39,6 +39,7 @@ const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
           ageRange={story.data.ageRange}
           publishedAt={story.data.publishedAt}
           isNew={story.data.publishedAt.valueOf() === maxDate}
+          priority={i < 3}
         />
       ))}
     </div>

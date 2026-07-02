@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 9
 publishedAt: 2026-06-11
 excerpt: "Ton and Pla find a mysterious glass bottle by the canal with an old map folded inside. The two of them set off to find the treasure it points to — and discover something worth even more than gold."
-cover: "/images/map-in-bottle.png"
+cover: "/images/map-in-bottle.webp"
 ---
 
 Ton and Pla had been friends since they were little. Their houses stood side by side, they went to the same school, and every evening they loved walking along the canal behind their homes.

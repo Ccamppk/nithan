@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-13
 excerpt: "Once upon a time, a starving hunter found a golden deer in the forest. But when the deer looked straight into his eyes, he lowered his bow — and that decision changed his life forever."
-cover: "/images/golden-deer-hunter.png"
+cover: "/images/golden-deer-hunter.webp"
 ---
 
 Once upon a time, deep in a forest no one dared enter, there lived a deer whose fur shone golden like sunlight. Every tree it passed burst into bloom; every stream it drank from ran clearer.

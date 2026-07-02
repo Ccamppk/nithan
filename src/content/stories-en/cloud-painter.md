@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 8
 publishedAt: 2026-06-11
 excerpt: "Fah discovers that the clouds she paints actually float up into the real sky. But when she paints too many, the sky turns dark, and she must learn that balance matters more than anything else."
-cover: "/images/cloud-painter.png"
+cover: "/images/cloud-painter.webp"
 ---
 
 Fah loved painting clouds.

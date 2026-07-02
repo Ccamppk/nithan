@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 5
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, there was a road that never seemed to end, no matter how far you walked. A girl named Yaow had been walking for three days with no destination in sight — until she stopped walking and looked around."
-cover: "/images/endless-road.png"
+cover: "/images/endless-road.webp"
 ---
 
 Once upon a time, in a distant land, there was a road famous for never ending.

@@ -8,7 +8,7 @@ ageRange: "5-12 years"
 readingTime: 9
 publishedAt: 2026-06-10
 excerpt: "Mali sells flowers at the morning market and finds a gold coin beneath her basket. It could solve all her problems — but it isn't hers to keep."
-cover: "/images/flower-seller-coin.png"
+cover: "/images/flower-seller-coin.webp"
 ---
 
 Mali woke before sunrise every day to help her mother arrange flowers for the morning market.

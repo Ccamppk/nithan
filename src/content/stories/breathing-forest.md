@@ -8,7 +8,7 @@ ageRange: "4-8 ปี"
 readingTime: 13
 publishedAt: 2026-06-10
 excerpt: "ทุกคืนเมื่อนุ่นหลับตาลง เธอจะได้ยินเสียงหายใจของป่า และเดินเข้าไปในโลกที่ต้นไม้ร้องเพลง แม่น้ำกล่อมนอน และดาวลงมานั่งเป็นเพื่อน"
-cover: "/images/breathing-forest.png"
+cover: "/images/breathing-forest.webp"
 ---
 
 นุ่นไม่ชอบเวลานอน

@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-13
 excerpt: "Once upon a time, a mysterious ship appeared in the morning fog only once a year. A boy named Lom boarded it without knowing where it would take him — and what he found on that journey was beyond anything he had ever imagined."
-cover: "/images/fog-ship.png"
+cover: "/images/fog-ship.webp"
 ---
 
 Once upon a time, in a small seaside village, a legend was told that every year, on the foggiest morning of winter, a white sailing ship would emerge from the mist, dock at the pier for exactly one hour, then vanish along with the fog.

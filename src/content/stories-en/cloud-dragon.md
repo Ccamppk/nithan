@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-12
 excerpt: "Once upon a time, a little dragon named Mek breathed out clouds instead of fire. His friends laughed at him — but when a terrible drought struck, it was Mek who became the hero."
-cover: "/images/cloud-dragon.png"
+cover: "/images/cloud-dragon.webp"
 ---
 
 Once upon a time, high on a mountain peak that was always wrapped in clouds, there lived a baby dragon named Mek.

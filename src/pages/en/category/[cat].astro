@@ -37,7 +37,7 @@ const maxDate = stories.length ? stories[0].data.publishedAt.valueOf() : 0;
       </div>
     ) : (
       <div class="stories-grid">
-        {stories.map((story: any) => (
+        {stories.map((story: any, i: number) => (
           <StoryCard
             href={`/en/stories/${story.id}`}
             title={story.data.title}
@@ -48,6 +48,7 @@ const maxDate = stories.length ? stories[0].data.publishedAt.valueOf() : 0;
             ageRange={story.data.ageRange}
             publishedAt={story.data.publishedAt}
             isNew={story.data.publishedAt.valueOf() === maxDate}
+            priority={i < 3}
             newLabel="New"
             readingTimeLabel={t.readingTime}
           />

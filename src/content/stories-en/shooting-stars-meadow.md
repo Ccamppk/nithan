@@ -8,7 +8,7 @@ ageRange: "3-7 years"
 readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, there was a special meadow where a star landed to rest every night. A girl who found that meadow got to talk with a star, weary from its long journey across the universe."
-cover: "/images/shooting-stars-meadow.png"
+cover: "/images/shooting-stars-meadow.webp"
 ---
 
 Once upon a time, there was a girl named Dao who loved lying down to watch the stars every night before bed.

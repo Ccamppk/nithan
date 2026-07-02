@@ -8,7 +8,7 @@ ageRange: "4-8 years"
 readingTime: 8
 publishedAt: 2026-06-12
 excerpt: "Once upon a time, there was a mysterious city that appeared only when children closed their eyes and let their hearts grow still. In that city, every dream could come true — and the only way in was to let yourself rest."
-cover: "/images/dream-mist-city.png"
+cover: "/images/dream-mist-city.webp"
 ---
 
 Once upon a time, in the early evening once all the stars had come out, a city appeared high up in the sky.

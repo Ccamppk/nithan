@@ -8,7 +8,7 @@ ageRange: "3-7 years"
 readingTime: 5
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, there was a valley that sang back in reply to every sound made within it. A girl who couldn't sing walked into the valley searching for the most beautiful sound in the world, and found it hidden within herself."
-cover: "/images/singing-valley.png"
+cover: "/images/singing-valley.webp"
 ---
 
 Once upon a time, there was a valley the villagers called the Singing Valley.

@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 6
 publishedAt: 2026-06-12
 excerpt: "Once upon a time, there was a magic tree that could talk, but it could only speak the truth. A girl named Kaew wanted to know if she was a good person, and the answer she received changed her life forever."
-cover: "/images/truth-tree.png"
+cover: "/images/truth-tree.webp"
 ---
 
 Once upon a time, in a small village deep in a great forest, there stood a most unusual tree.

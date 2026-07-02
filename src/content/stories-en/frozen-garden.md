@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 5
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, there was a garden where time had stood still for a hundred years. Flowers were frozen mid-bloom, butterflies hung suspended in the air, and a girl who wandered in had to find a way to restart time before she became trapped there too."
-cover: "/images/frozen-garden.png"
+cover: "/images/frozen-garden.webp"
 ---
 
 Once upon a time, behind a tall stone wall in the heart of the city, there was a garden no one had entered for a hundred years.

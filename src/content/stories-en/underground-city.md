@@ -8,7 +8,7 @@ ageRange: "5-12 years"
 readingTime: 12
 publishedAt: 2026-06-10
 excerpt: "While digging in the garden, Fai falls through the earth into a hidden city built by the Mushroom People — where the lights are made of glowworms and the roads are made of roots."
-cover: "/images/underground-city.png"
+cover: "/images/underground-city.webp"
 ---
 
 Fai was digging in the garden behind her grandmother's house when the ground gave way.

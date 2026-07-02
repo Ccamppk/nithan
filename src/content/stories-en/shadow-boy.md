@@ -8,7 +8,7 @@ ageRange: "4-9 years"
 readingTime: 6
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, a boy named Ek noticed his shadow starting to do things he himself never did. It bowed to elders, it helped others — and it made him ask himself whether his shadow was truly a better person than he was."
-cover: "/images/shadow-boy.png"
+cover: "/images/shadow-boy.webp"
 ---
 
 Once upon a time, there was a boy named Ek who always did whatever he pleased, rarely caring about others. He would bump into people and keep walking without stopping. He would see an elderly person struggling with heavy bags and never help.

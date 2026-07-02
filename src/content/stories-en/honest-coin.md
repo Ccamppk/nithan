@@ -8,7 +8,7 @@ ageRange: "6-12 years"
 readingTime: 10
 publishedAt: 2026-06-11
 excerpt: "Pae finds a wallet with money inside. Part of him wants to keep it; part of him says he must return it. That day, he learned that honesty gives us something money can never buy."
-cover: "/images/honest-coin.png"
+cover: "/images/honest-coin.webp"
 ---
 
 Pae was an eight-year-old boy who had wanted a big chocolate bar from the shop near his school for a long time. But his mother said money was tight this month, so he'd have to wait.

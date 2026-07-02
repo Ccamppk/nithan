@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 7
 publishedAt: 2026-06-13
 excerpt: "Once upon a time, a Thai boy named Phu visited Angkor Wat in Cambodia, where he met a Khmer boy who taught him that great civilizations are built through people working together."
-cover: "/images/angkor-wat.png"
+cover: "/images/angkor-wat.webp"
 ---
 
 Once upon a time, a boy named Phu's father told him bedtime stories about the great stone temple in Cambodia — a colossal structure built a thousand years ago with no machines at all, only human hands and determination.

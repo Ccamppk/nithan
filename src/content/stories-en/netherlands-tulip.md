@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 8
 publishedAt: 2026-06-12
 excerpt: "Once upon a time, a boy named Oak visited the Netherlands and got lost in a vast tulip field. A Dutch boy named Lars helped him find his way back, and taught him the best path of all in life."
-cover: "/images/netherlands-tulip.png"
+cover: "/images/netherlands-tulip.webp"
 ---
 
 Once upon a time, a Thai boy named Oak went to visit the Netherlands with his parents in the spring.

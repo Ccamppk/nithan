@@ -8,7 +8,7 @@ ageRange: "5-10 years"
 readingTime: 5
 publishedAt: 2026-06-14
 excerpt: "Once upon a time, a Kenyan boy named Kambili led a foreign tourist to see the wildlife, teaching her that a true safari isn't about taking photos — it's about respecting nature."
-cover: "/images/kenya-safari.png"
+cover: "/images/kenya-safari.webp"
 ---
 
 Once upon a time, on the vast plains of the African savanna, a Kenyan boy named Kambili grew up on the wildlife stories his father told him every night.
