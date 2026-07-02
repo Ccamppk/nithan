@@ -12,8 +12,12 @@ interface Props {
    *  Set to false on pages with no translation so we don't emit
    *  an hreflang pointing at a 404 (Google penalises that). */
   hasAlt?: boolean;
+  /** Set on pages with a `.hero` section so its CSS background-image
+   *  (otherwise undiscoverable by the browser's preload scanner) gets
+   *  preloaded as the LCP resource. */
+  heroImage?: string;
 }
-const { title, description, image, activeCat, lang = 'th', hasAlt = true } = Astro.props;
+const { title, description, image, activeCat, lang = 'th', hasAlt = true, heroImage } = Astro.props;
 const t = ui[lang];
 const isEn = lang === 'en';
 
@@ -44,6 +48,7 @@ const langSwitchUrl = isEn ? Astro.url.pathname.replace(/^\/en/, '') || '/' : '/
     <title>{fullTitle}</title>
     <meta name="description" content={metaDescription} />
     <meta name="google-site-verification" content="XzulYr2CVTCUiQsvWC0jjw-8zpsbeVAaj6yjnzP6-aQ" />
+    {heroImage && <link rel="preload" as="image" href={heroImage} fetchpriority="high" />}
     <link rel="canonical" href={canonicalUrl} />
 
     <!-- hreflang for TH/EN (only emit the opposite language when it exists) -->

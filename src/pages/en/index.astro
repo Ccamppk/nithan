@@ -14,7 +14,7 @@ const preview = sorted.slice(0, LIMIT);
 const hasMore = sorted.length > LIMIT;
 const maxDate = sorted[0]?.data.publishedAt.valueOf() ?? 0;
 ---
-<Base title="Home" description={t.siteTagline} lang="en">
+<Base title="Home" description={t.siteTagline} lang="en" heroImage="/bg-light.webp">
   <section class="hero">
     <h1>
       <img src="/logo-white.webp" alt="Nithaan" class="hero-logo logo-img--white" />
