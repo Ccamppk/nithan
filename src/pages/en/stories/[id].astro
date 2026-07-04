@@ -1,7 +1,9 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import StoryCard from '../../../components/StoryCard.astro';
 import { getCollection, render } from 'astro:content';
 import { ui, iconMap } from '../../../i18n';
+import { getRecommendedStories } from '../../../utils/recommendations';
 
 const t = ui.en;
 
@@ -19,6 +21,9 @@ const { Content } = await render(story);
 // Does this story have a Thai original? (controls hreflang)
 const thStories = await getCollection('stories');
 const hasTh = thStories.some(s => s.id === story.id);
+
+const allStories = await getCollection('storiesEn');
+const recommended = getRecommendedStories(allStories, story, 3);
 
 const siteUrl = Astro.site?.href.replace(/\/$/, '') ?? 'https://nithaan.com';
 const storyUrl = `${siteUrl}/en/stories/${story.id}`;
@@ -96,6 +101,28 @@ const jsonLd = {
           </div>
         )}
       </div>
+    )}
+
+    {recommended.length > 0 && (
+      <section class="recommended-section">
+        <h2 class="section-title">{t.recommended}</h2>
+        <div class="stories-grid">
+          {recommended.map(rec => (
+            <StoryCard
+              href={`/en/stories/${rec.id}`}
+              title={rec.data.title}
+              category={rec.data.category}
+              cover={rec.data.cover}
+              readingTime={rec.data.readingTime}
+              excerpt={rec.data.excerpt}
+              ageRange={rec.data.ageRange}
+              publishedAt={rec.data.publishedAt}
+              newLabel="New"
+              readingTimeLabel={t.readingTime}
+            />
+          ))}
+        </div>
+      </section>
     )}
   </main>
 

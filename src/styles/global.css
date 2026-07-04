@@ -623,6 +623,11 @@ body.day-mode .story-content strong { color: var(--day-text); }
   flex-shrink: 0;
   color: var(--text-muted);
 }
+
+/* ── Recommended stories (end of reader page) ── */
+.recommended-section {
+  margin-top: 3rem;
+}
 .credit-item strong {
   color: var(--text);
   font-weight: 600;

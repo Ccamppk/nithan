@@ -19,6 +19,7 @@ export const ui = {
     copyright: '© 2026 Nithaan. สงวนลิขสิทธิ์ทุกประการ',
     readOther: 'อ่านนิทานเรื่องอื่น',
     stories: 'เรื่อง',
+    recommended: 'นิทานแนะนำ',
   },
   en: {
     siteTagline: 'Every page is an adventure',
@@ -38,6 +39,7 @@ export const ui = {
     copyright: '© 2026 Nithaan. All rights reserved.',
     readOther: 'Read another story',
     stories: 'stories',
+    recommended: 'You might also like',
   },
 } as const;
 
