@@ -23,7 +23,7 @@ const thStories = await getCollection('stories');
 const hasTh = thStories.some(s => s.id === story.id);
 
 const allStories = await getCollection('storiesEn');
-const recommended = getRecommendedStories(allStories, story, 3);
+const recommended = getRecommendedStories(allStories, story, 4);
 
 const siteUrl = Astro.site?.href.replace(/\/$/, '') ?? 'https://nithaan.com';
 const storyUrl = `${siteUrl}/en/stories/${story.id}`;
