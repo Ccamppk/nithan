@@ -1,18 +1,27 @@
-import type { CollectionEntry } from 'astro:content';
+interface StoryLike {
+  id: string;
+  data: { category: string };
+}
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);
 }
 
-/** Same category first, random fill from the rest, excludes the current story. */
-export function getRecommendedStories<C extends 'stories' | 'storiesEn'>(
-  allStories: CollectionEntry<C>[],
-  current: CollectionEntry<C>,
-  count = 3
-): CollectionEntry<C>[] {
-  const others = allStories.filter(s => s.id !== current.id);
-  const sameCategory = others.filter(s => s.data.category === current.data.category);
-  const rest = others.filter(s => s.data.category !== current.data.category);
+/**
+ * Same category first, random fill from the rest, excludes the current story.
+ * Takes currentId/currentCategory (not the whole current story) so it works
+ * identically server-side (against CollectionEntry, at build time) and
+ * client-side (against plain JSON fetched from /stories-data.json, per pageview).
+ */
+export function getRecommendedStories<T extends StoryLike>(
+  allStories: T[],
+  currentId: string,
+  currentCategory: string,
+  count = 4
+): T[] {
+  const others = allStories.filter(s => s.id !== currentId);
+  const sameCategory = others.filter(s => s.data.category === currentCategory);
+  const rest = others.filter(s => s.data.category !== currentCategory);
 
   const picked = shuffle(sameCategory).slice(0, count);
   if (picked.length < count) {

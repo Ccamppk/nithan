@@ -23,7 +23,7 @@ const thStories = await getCollection('stories');
 const hasTh = thStories.some(s => s.id === story.id);
 
 const allStories = await getCollection('storiesEn');
-const recommended = getRecommendedStories(allStories, story, 4);
+const recommended = getRecommendedStories(allStories, story.id, story.data.category, 4);
 
 const siteUrl = Astro.site?.href.replace(/\/$/, '') ?? 'https://nithaan.com';
 const storyUrl = `${siteUrl}/en/stories/${story.id}`;
@@ -106,7 +106,7 @@ const jsonLd = {
     {recommended.length > 0 && (
       <section class="recommended-section">
         <h2 class="section-title">{t.recommended}</h2>
-        <div class="stories-grid">
+        <div class="stories-grid" id="recommendedGrid" data-current-id={story.id} data-current-category={story.data.category} data-reading-time-label={t.readingTime}>
           {recommended.map(rec => (
             <StoryCard
               href={`/en/stories/${rec.id}`}
@@ -143,5 +143,43 @@ const jsonLd = {
         }
       });
     });
+  </script>
+
+  <script>
+    import { getRecommendedStories } from '../../../utils/recommendations';
+    import { renderStoryCardHtml } from '../../../utils/renderStoryCard';
+    import { iconMap } from '../../../i18n';
+
+    interface StoryJson {
+      id: string;
+      data: {
+        title: string;
+        category: string;
+        cover: string | null;
+        readingTime: number;
+        excerpt: string;
+        ageRange: string;
+      };
+    }
+
+    const grid = document.getElementById('recommendedGrid');
+    if (grid) {
+      const currentId = grid.dataset.currentId ?? '';
+      const currentCategory = grid.dataset.currentCategory ?? '';
+      const readingTimeLabel = grid.dataset.readingTimeLabel ?? 'min read';
+      fetch('/en/stories-data.json')
+        .then(res => res.json())
+        .then((stories: StoryJson[]) => {
+          const picked = getRecommendedStories(stories, currentId, currentCategory, 4);
+          if (picked.length > 0) {
+            grid.innerHTML = picked
+              .map(s => renderStoryCardHtml(s, { hrefPrefix: '/en/stories/', readingTimeLabel, iconMap }))
+              .join('');
+          }
+        })
+        .catch(() => {
+          // Keep the server-rendered fallback set on failure.
+        });
+    }
   </script>
 </Base>
